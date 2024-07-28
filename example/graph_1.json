@@ -1,0 +1,25 @@
+{
+    "nodes": [
+        {
+            "coordinates": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "label": "Aaa"
+        },
+        {
+            "coordinates": {
+                "x": 50.0,
+                "y": 30.0
+            },
+            "label": "B",
+            "font_size": 9
+        }
+    ],
+    "connections": [
+        {
+            "index1": 0,
+            "index2": 1
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "nodes": [
+        {
+            "coordinates": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "label": "A",
+            "charge": 1e2
+        },
+        {
+            "coordinates": {
+                "x": 20.0,
+                "y": 0.0
+            },
+            "label": "B",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": 0.0,
+                "y": 20.0
+            },
+            "label": "C",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": 10.0,
+                "y": 20.0
+            },
+            "label": "D",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": 20.0,
+                "y": 20.0
+            },
+            "label": "D1",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": 35.0,
+                "y": 20.0
+            },
+            "label": "D2",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": -15.0,
+                "y": 20.0
+            },
+            "label": "C1",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": -30.0,
+                "y": 20.0
+            },
+            "label": "C2",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": -45.0,
+                "y": 20.0
+            },
+            "label": "C3",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": -60.0,
+                "y": 20.0
+            },
+            "label": "C4",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": 30.0,
+                "y": -20.0
+            },
+            "label": "B1",
+            "charge": 1e3
+        },
+        {
+            "coordinates": {
+                "x": 30.0,
+                "y": -30.0
+            },
+            "label": "B11",
+            "charge": 1e3
+        }
+    ],
+    "connections": [
+        {
+            "index1": 0,
+            "index2": 1,
+            "stiffness": 1
+        },
+        {
+            "index1": 0,
+            "index2": 2,
+            "stiffness": 1
+        },
+        {
+            "index1": 0,
+            "index2": 3,
+            "stiffness": 1
+        },
+        {
+            "index1": 3,
+            "index2": 4,
+            "stiffness": 1
+        },
+        {
+            "index1": 3,
+            "index2": 5,
+            "stiffness": 1
+        },
+        {
+            "index1": 2,
+            "index2": 6,
+            "stiffness": 1
+        },
+        {
+            "index1": 2,
+            "index2": 7,
+            "stiffness": 1
+        },
+        {
+            "index1": 2,
+            "index2": 8,
+            "stiffness": 1
+        },
+        {
+            "index1": 2,
+            "index2": 9,
+            "stiffness": 1
+        },
+        {
+            "index1": 1,
+            "index2": 10,
+            "stiffness": 1
+        },
+        {
+            "index1": 10,
+            "index2": 11,
+            "stiffness": 1
+        }
+    ]
+}
