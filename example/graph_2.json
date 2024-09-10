@@ -11,7 +11,7 @@
         {
             "coordinates": {
                 "x": 20.0,
-                "y": 0.0
+                "y": -20.0
             },
             "label": "B",
             "charge": 1e3
@@ -83,7 +83,7 @@
         {
             "coordinates": {
                 "x": 30.0,
-                "y": -20.0
+                "y": -40.0
             },
             "label": "B1",
             "charge": 1e3
@@ -91,7 +91,7 @@
         {
             "coordinates": {
                 "x": 30.0,
-                "y": -30.0
+                "y": -50.0
             },
             "label": "B11",
             "charge": 1e3

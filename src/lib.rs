@@ -40,12 +40,12 @@ pub struct Node {
 }
 
 impl Node {
-    pub fn new(x: f64, y: f64, label: String) -> Self {
+    pub fn new(x: f64, y: f64, label: String, charge: f64) -> Self {
         Node {
             coordinates: Coordinates {x, y},
             label,
             font_size: None,
-            charge: None
+            charge: Some(charge)
         }
     }
 
