@@ -1,17 +1,17 @@
 mod force_solver;
+pub mod dto;
 
 use std::{error::Error, fs};
 use std::fs::File;
 use std::io::BufWriter;
 
-use serde::{Deserialize, Serialize};
+use dto::{Dto, GraphDto};
 
 use printpdf::*;
 
-const DEFAULT_FONT_SIZE: f32 = 12.0;
 const DEFAULT_PAGE_PADDING: Mm = Mm(10.0);
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Debug)]
 pub struct Coordinates {
     x: f64,
     y: f64,
@@ -29,56 +29,55 @@ impl Clone for Coordinates {
     }
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Debug)]
 pub struct Node {
     coordinates: Coordinates,
     label: String,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    font_size: Option<f32>,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    charge: Option<f64>,
+    font_size: f32,
+    charge: f64,
 }
 
 impl Node {
+    // TODO remove hard coded font_size value
     pub fn new(x: f64, y: f64, label: String, charge: f64) -> Self {
         Node {
             coordinates: Coordinates {x, y},
             label,
-            font_size: None,
-            charge: Some(charge)
+            font_size: 12.0,
+            charge
         }
     }
 
     pub fn get_charge(&self) -> f64 {
-        self.charge.unwrap_or(1.0)
+        self.charge
     }
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Debug)]
 pub struct Connection {
     index1: usize,
     index2: usize,
-    #[serde(skip_serializing_if = "Option::is_none")]
-    stiffness: Option<f64>,
+    stiffness: f64,
 }
 
 impl Connection {
     pub fn new(index1: usize, index2: usize) -> Self {
+        // TODO remove hard coded stiffness value
         Connection {
             index1,
             index2,
-            stiffness: None
+            stiffness: 1.0
         }
     }
 }
 
 impl Connection {
     pub fn get_stifness(&self) -> f64 {
-        self.stiffness.unwrap_or(1.0)
+        self.stiffness
     }
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Debug)]
 pub struct Graph {
     nodes: Vec<Node>,
     connections: Vec<Connection>,
@@ -105,10 +104,7 @@ struct PdfNode {
 
 impl PdfNode {
     fn from_node(node: &Node) -> Self {
-        let font_size = match node.font_size {
-            Some(size) => size,
-            None => DEFAULT_FONT_SIZE,
-        };
+        let font_size = node.font_size;
         let font_width = 0.6 * font_size;
         let label_width = Pt(node.label.len() as f32 * font_width);
 
@@ -164,7 +160,8 @@ impl PdfNode {
 pub fn read_graph_from_file(file_path: String) -> Result<Graph, Box<dyn Error>> {
 
     let content = fs::read_to_string(file_path)?;
-    let graph: Graph = serde_json::from_str(&content)?;
+    let graph_dto: GraphDto = serde_json::from_str(&content)?;
+    let graph: Graph = graph_dto.to_model();
     Ok(graph)
 }
 
