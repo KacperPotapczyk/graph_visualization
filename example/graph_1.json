@@ -5,7 +5,8 @@
                 "x": 0.0,
                 "y": 0.0
             },
-            "label": "Aaa"
+            "label": "A",
+            "description": "Aaa"
         },
         {
             "coordinates": {
@@ -18,8 +19,8 @@
     ],
     "connections": [
         {
-            "index1": 0,
-            "index2": 1
+            "node1": "A",
+            "node2": "B"
         }
     ]
 }

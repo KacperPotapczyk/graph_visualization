@@ -64,27 +64,55 @@ impl Dto for NodeDto {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct ConnectionDto {
-    index1: usize,
-    index2: usize,
+    node1: String,
+    node2: String,
     stiffness: Option<f64>,
 }
 
-impl Dto for ConnectionDto {
-    type Target = Connection;
+impl ConnectionDto {
 
-    fn to_model(&self) -> Self::Target {
+    fn to_model(&self, node_dtos: &Vec<NodeDto>) -> Connection {
+
+        let mut index1 = 0;
+        let mut index2 = 0;
+        let mut index1_found = false;
+        let mut index2_found = false;
+
+        for (index, node_dto) in node_dtos.iter().enumerate() {
+            if !index1_found && node_dto.label == self.node1 {
+                index1 = index;
+                index1_found = true;
+                if index2_found {
+                    break;
+                }
+            } else if !index2_found && node_dto.label == self.node2 {
+                index2 = index;
+                index2_found = true;
+                if index1_found {
+                    break;
+                }
+            }
+        }
+
+        if !index1_found {
+            panic!("Connection is invalid! Could not find node with label: {}", self.node1);
+        }
+        if !index2_found {
+            panic!("Connection is invalid! Could not find node with label: {}", self.node2);
+        }
+
         Connection {
-            index1: self.index1,
-            index2: self.index2,
+            index1,
+            index2,
             stiffness: self.stiffness.unwrap_or(DEFAULT_STIFFNESS)
         }
     }
 
-    fn from_model(target: &Self::Target) -> Self {
+    fn from_model(connection: &Connection, nodes: &Vec<Node>) -> Self {
         ConnectionDto {
-            index1: target.index1,
-            index2: target.index2,
-            stiffness: Some(target.stiffness)
+            node1: nodes[connection.index1].label.clone(),
+            node2: nodes[connection.index2].label.clone(),
+            stiffness: Some(connection.stiffness)
         }
     }
 }
@@ -104,7 +132,7 @@ impl Dto for GraphDto {
                     .map(|node_dto| node_dto.to_model())
                     .collect(),
             connections: self.connections.iter()
-                    .map(|connection_dto| connection_dto.to_model())
+                    .map(|connection_dto| connection_dto.to_model(&self.nodes))
                     .collect()
         }
     }
@@ -115,7 +143,7 @@ impl Dto for GraphDto {
                     .map(|target_node| NodeDto::from_model(target_node))
                     .collect(),
             connections: target.connections.iter()
-                    .map(|target_connection| ConnectionDto::from_model(target_connection))
+                    .map(|target_connection| ConnectionDto::from_model(target_connection, &target.nodes))
                     .collect()
         }
     }
