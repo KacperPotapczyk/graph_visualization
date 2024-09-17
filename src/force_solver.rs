@@ -23,8 +23,7 @@ pub fn solve(nodes: &Vec<Node>, connections: &Vec<Connection>, max_iterations: u
 
         let mut iteration = 0;
         let mut solution_found = false;
-        let mut gradient_prev = DVector::<f64>::zeros(2*size);
-        let mut direction_prev = DVector::<f64>::zeros(2*size);
+        let mut gradient_prev;
 
         while solution_found == false {
 
@@ -41,16 +40,8 @@ pub fn solve(nodes: &Vec<Node>, connections: &Vec<Connection>, max_iterations: u
             let previous_position = position.clone();
             evaluate_force_and_gradient(size, electroctatic_constant, nodes, &position, &mut total_force, connections, &mut gradient);
 
-            let direction ;
-            if iteration == 1 {
-                direction = gradient.scale(-1.0);
-            } else {
-                let beta = (gradient.clone() - gradient_prev.clone()).dot(&gradient) / gradient_prev.dot(&gradient_prev);
-                direction = gradient.scale(-1.0) + direction_prev.scale(beta);
-            }
-
+            let direction = gradient.scale(-1.0);
             gradient_prev = gradient.clone();
-            direction_prev = direction.clone();
 
             line_search(&mut position, &direction, electroctatic_constant, nodes, connections, step);
             evaluate_force_and_gradient(size, electroctatic_constant, nodes, &position, &mut total_force, connections, &mut gradient);
