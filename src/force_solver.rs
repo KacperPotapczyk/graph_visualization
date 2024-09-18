@@ -268,9 +268,9 @@ mod tests {
     #[test]
     fn solve_test_1() {
         let eps = 0.5;
-        let node1 = Node::new(0.0, 0.0, String::from("node1"), 100.0);
-        let node2 = Node::new(2.0, 0.0, String::from("node2"), 100.0);
-        let connection1 = Connection::new(0, 1);
+        let node1 = Node::new(0.0, 0.0, String::from("node1"), 12.0, 100.0);
+        let node2 = Node::new(2.0, 0.0, String::from("node2"), 12.0, 100.0);
+        let connection1 = Connection::new(0, 1, 1.0);
 
         let mut nodes = Vec::new();
         nodes.push(node1);
@@ -291,9 +291,9 @@ mod tests {
     #[test]
     fn solve_test_2() {
         let eps = 0.5;
-        let node1 = Node::new(0.0, 0.0, String::from("node1"), 100.0);
-        let node2 = Node::new(-2.0, 0.0, String::from("node2"), 100.0);
-        let connection1 = Connection::new(0, 1);
+        let node1 = Node::new(0.0, 0.0, String::from("node1"), 12.0, 100.0);
+        let node2 = Node::new(-2.0, 0.0, String::from("node2"), 12.0, 100.0);
+        let connection1 = Connection::new(0, 1, 1.0);
 
         let mut nodes = Vec::new();
         nodes.push(node1);
@@ -314,9 +314,9 @@ mod tests {
     #[test]
     fn solve_test_3() {
         let eps = 0.5;
-        let node1 = Node::new(0.0, 0.0, String::from("node1"), 100.0);
-        let node2 = Node::new(-2.0, 0.0, String::from("node2"), 100.0);
-        let connection1 = Connection::new(1, 0);
+        let node1 = Node::new(0.0, 0.0, String::from("node1"), 12.0, 100.0);
+        let node2 = Node::new(-2.0, 0.0, String::from("node2"), 12.0, 100.0);
+        let connection1 = Connection::new(1, 0, 1.0);
 
         let mut nodes = Vec::new();
         nodes.push(node1);
@@ -339,15 +339,15 @@ mod tests {
         let eps = 0.5;
 
         let nodes = vec![
-            Node::new(0.0, 0.0, String::from("node1"), 100.0),
-            Node::new(2.0, 0.0, String::from("node2"), 100.0),
-            Node::new(0.0, 2.0, String::from("node3"), 100.0)
+            Node::new(0.0, 0.0, String::from("node1"), 12.0, 100.0),
+            Node::new(2.0, 0.0, String::from("node2"), 12.0, 100.0),
+            Node::new(0.0, 2.0, String::from("node3"), 12.0, 100.0)
         ];
 
         let connections = vec![
-            Connection::new(0, 1),
-            Connection::new(0, 2),
-            Connection::new(1, 2)
+            Connection::new(0, 1, 1.0),
+            Connection::new(0, 2, 1.0),
+            Connection::new(1, 2, 1.0)
         ];
 
         let new_coordinates = solve(&nodes, &connections, 50);

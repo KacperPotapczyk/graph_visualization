@@ -38,12 +38,11 @@ pub struct Node {
 }
 
 impl Node {
-    // TODO remove hard coded font_size value
-    pub fn new(x: f64, y: f64, label: String, charge: f64) -> Self {
+    pub fn new(x: f64, y: f64, label: String, font_size: f32, charge: f64) -> Self {
         Node {
             coordinates: Coordinates {x, y},
             label,
-            font_size: 12.0,
+            font_size,
             charge
         }
     }
@@ -61,12 +60,11 @@ pub struct Connection {
 }
 
 impl Connection {
-    pub fn new(index1: usize, index2: usize) -> Self {
-        // TODO remove hard coded stiffness value
+    pub fn new(index1: usize, index2: usize, stiffness: f64) -> Self {
         Connection {
             index1,
             index2,
-            stiffness: 1.0
+            stiffness
         }
     }
 }
