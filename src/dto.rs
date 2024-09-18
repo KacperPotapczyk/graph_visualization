@@ -8,21 +8,21 @@ const DEFAULT_CHARGE: f64 = 1.0;
 const DEFAULT_STIFFNESS: f64 = 1.0;
 
 pub trait Dto {
-    type Source;
+    type DtoType;
     type Model;
 
     fn to_model(&self) -> Result<Self::Model, Box<dyn Error>>;
-    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>>;
+    fn from_model(model: &Self::Model) -> Result<Self::DtoType, Box<dyn Error>>;
 }
 
 pub trait RelationDto {
-    type Source;
+    type DtoType;
     type Model;
     type RelatedDto;
     type RelatedModel;
 
     fn to_model(&self, related_dto: &Self::RelatedDto) -> Result<Self::Model, Box<dyn Error>>;
-    fn from_model(model: &Self::Model, related_model: &Self::RelatedModel) -> Result<Self::Source, Box<dyn Error>>;
+    fn from_model(model: &Self::Model, related_model: &Self::RelatedModel) -> Result<Self::DtoType, Box<dyn Error>>;
 }
 
 #[derive(Debug)]
@@ -43,14 +43,14 @@ pub struct CoordinatesDto {
 }
 
 impl Dto for CoordinatesDto {
-    type Source = Self;
+    type DtoType = Self;
     type Model = Coordinates;
 
     fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
         Ok(Self::Model {x: self.x, y: self.y})
     }
 
-    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>> {
+    fn from_model(model: &Self::Model) -> Result<Self::DtoType, Box<dyn Error>> {
         Ok(Self {x: model.x, y: model.y})
     }
 }
@@ -65,7 +65,7 @@ pub struct NodeDto {
 }
 
 impl Dto for NodeDto {
-    type Source = Self;
+    type DtoType = Self;
     type Model = Node;
 
     fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
@@ -77,7 +77,7 @@ impl Dto for NodeDto {
         })
     }
     
-    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>> {
+    fn from_model(model: &Self::Model) -> Result<Self::DtoType, Box<dyn Error>> {
         Ok(Self {
             coordinates: CoordinatesDto::from_model(&model.coordinates)?,
             label: model.label.clone(),
@@ -96,7 +96,7 @@ pub struct ConnectionDto {
 }
 
 impl RelationDto for ConnectionDto {
-    type Source = Self;
+    type DtoType = Self;
     type RelatedModel = Vec<Node>;
     type RelatedDto = Vec<NodeDto>;
     type Model = Connection;
@@ -139,7 +139,7 @@ pub struct GraphDto {
 }
 
 impl Dto for GraphDto {
-    type Source = Self;
+    type DtoType = Self;
     type Model = Graph;
 
     fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
@@ -167,7 +167,7 @@ impl Dto for GraphDto {
         })
     }
 
-    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>> {
+    fn from_model(model: &Self::Model) -> Result<Self::DtoType, Box<dyn Error>> {
 
         let mut nodes = vec![];
         for node in &model.nodes {
