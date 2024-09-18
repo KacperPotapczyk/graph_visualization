@@ -39,6 +39,6 @@ fn main() {
     print_graph_to_pdf(&graph, args.pdf).unwrap();
 
     if args.out_graph.is_some() {
-        fs::write(args.out_graph.unwrap(), serde_json::to_string_pretty(&GraphDto::from_model(&graph)).unwrap()).unwrap();
+        fs::write(args.out_graph.unwrap(), serde_json::to_string_pretty(&GraphDto::from_model(&graph).unwrap()).unwrap()).unwrap();
     }
 }

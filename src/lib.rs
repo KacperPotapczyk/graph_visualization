@@ -161,7 +161,7 @@ pub fn read_graph_from_file(file_path: String) -> Result<Graph, Box<dyn Error>> 
 
     let content = fs::read_to_string(file_path)?;
     let graph_dto: GraphDto = serde_json::from_str(&content)?;
-    let graph: Graph = graph_dto.to_model();
+    let graph: Graph = graph_dto.to_model()?;
     Ok(graph)
 }
 

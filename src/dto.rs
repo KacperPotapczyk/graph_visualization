@@ -1,3 +1,5 @@
+use std::{error::Error, fmt::Display, vec};
+
 use super::{Graph, Node, Connection, Coordinates};
 use serde::{Deserialize, Serialize};
 
@@ -5,12 +7,34 @@ const DEFAULT_FONT_SIZE: f32 = 12.0;
 const DEFAULT_CHARGE: f64 = 1.0;
 const DEFAULT_STIFFNESS: f64 = 1.0;
 
-pub trait Dto<Source=Self> {
-    type Target;
+pub trait Dto {
+    type Source;
+    type Model;
 
-    fn to_model(&self) -> Self::Target;
-    fn from_model(target: &Self::Target) -> Self;
+    fn to_model(&self) -> Result<Self::Model, Box<dyn Error>>;
+    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>>;
 }
+
+pub trait RelationDto {
+    type Source;
+    type Model;
+    type RelatedDto;
+    type RelatedModel;
+
+    fn to_model(&self, related_dto: &Self::RelatedDto) -> Result<Self::Model, Box<dyn Error>>;
+    fn from_model(model: &Self::Model, related_model: &Self::RelatedModel) -> Result<Self::Source, Box<dyn Error>>;
+}
+
+#[derive(Debug)]
+struct DtoError(String);
+
+impl Display for DtoError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "Error during dto mapping: {}", self.0)
+    }
+}
+
+impl Error for DtoError {}
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct CoordinatesDto {
@@ -19,14 +43,15 @@ pub struct CoordinatesDto {
 }
 
 impl Dto for CoordinatesDto {
-    type Target = Coordinates;
+    type Source = Self;
+    type Model = Coordinates;
 
-    fn to_model(&self) -> Self::Target {
-        Coordinates {x: self.x, y: self.y}
+    fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
+        Ok(Self::Model {x: self.x, y: self.y})
     }
 
-    fn from_model(target: &Self::Target) -> Self {
-        CoordinatesDto {x: target.x, y: target.y}
+    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>> {
+        Ok(Self {x: model.x, y: model.y})
     }
 }
 
@@ -40,25 +65,26 @@ pub struct NodeDto {
 }
 
 impl Dto for NodeDto {
-    type Target = Node;
+    type Source = Self;
+    type Model = Node;
 
-    fn to_model(&self) -> Self::Target {
-        Node {
-            coordinates: self.coordinates.to_model(),
+    fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
+        Ok(Self::Model {
+            coordinates: self.coordinates.to_model()?,
             label: self.description.clone().unwrap_or(self.label.clone()),
             font_size: self.font_size.unwrap_or(DEFAULT_FONT_SIZE),
             charge: self.charge.unwrap_or(DEFAULT_CHARGE)
-        }
+        })
     }
     
-    fn from_model(target: &Self::Target) -> Self {
-        NodeDto {
-            coordinates: CoordinatesDto::from_model(&target.coordinates),
-            label: target.label.clone(),
+    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>> {
+        Ok(Self {
+            coordinates: CoordinatesDto::from_model(&model.coordinates)?,
+            label: model.label.clone(),
             description: None,
-            font_size: Some(target.font_size),
-            charge: Some(target.charge)
-        }
+            font_size: Some(model.font_size),
+            charge: Some(model.charge)
+        })
     }
 }
 
@@ -69,51 +95,42 @@ pub struct ConnectionDto {
     stiffness: Option<f64>,
 }
 
-impl ConnectionDto {
+impl RelationDto for ConnectionDto {
+    type Source = Self;
+    type RelatedModel = Vec<Node>;
+    type RelatedDto = Vec<NodeDto>;
+    type Model = Connection;
 
-    fn to_model(&self, node_dtos: &Vec<NodeDto>) -> Connection {
+    fn to_model(&self, node_dtos: &Self::RelatedDto) -> Result<Self::Model, Box<dyn Error>> {
 
-        let mut index1 = 0;
-        let mut index2 = 0;
-        let mut index1_found = false;
-        let mut index2_found = false;
 
-        for (index, node_dto) in node_dtos.iter().enumerate() {
-            if !index1_found && node_dto.label == self.node1 {
-                index1 = index;
-                index1_found = true;
-                if index2_found {
-                    break;
-                }
-            } else if !index2_found && node_dto.label == self.node2 {
-                index2 = index;
-                index2_found = true;
-                if index1_found {
-                    break;
-                }
-            }
+        let index1 = node_dtos.iter().position(|node| node.label == self.node1);
+        let index2 = node_dtos.iter().position(|node| node.label == self.node2);
+
+        if index1.is_none() {
+            return Err(Box::new(
+                DtoError("Connection is invalid! Could not find node with label: ".to_string() + &self.node1)
+            ))
+        }
+        if index2.is_none() {
+            return Err(Box::new(
+                DtoError("Connection is invalid! Could not find node with label: ".to_string() + &self.node2)
+            ))
         }
 
-        if !index1_found {
-            panic!("Connection is invalid! Could not find node with label: {}", self.node1);
-        }
-        if !index2_found {
-            panic!("Connection is invalid! Could not find node with label: {}", self.node2);
-        }
-
-        Connection {
-            index1,
-            index2,
+        Ok(Self::Model {
+            index1: index1.unwrap(),
+            index2: index2.unwrap(),
             stiffness: self.stiffness.unwrap_or(DEFAULT_STIFFNESS)
-        }
+        })
     }
 
-    fn from_model(connection: &Connection, nodes: &Vec<Node>) -> Self {
-        ConnectionDto {
-            node1: nodes[connection.index1].label.clone(),
-            node2: nodes[connection.index2].label.clone(),
-            stiffness: Some(connection.stiffness)
-        }
+    fn from_model(model: &Self::Model, nodes: &Self::RelatedModel) -> Result<Self, Box<dyn Error>> {
+        Ok(Self {
+            node1: nodes[model.index1].label.clone(),
+            node2: nodes[model.index2].label.clone(),
+            stiffness: Some(model.stiffness)
+        })
     }
 }
 
@@ -124,27 +141,42 @@ pub struct GraphDto {
 }
 
 impl Dto for GraphDto {
-    type Target = Graph;
+    type Source = Self;
+    type Model = Graph;
 
-    fn to_model(&self) -> Self::Target {
-        Graph {
-            nodes: self.nodes.iter()
-                    .map(|node_dto| node_dto.to_model())
-                    .collect(),
-            connections: self.connections.iter()
-                    .map(|connection_dto| connection_dto.to_model(&self.nodes))
-                    .collect()
+    fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
+
+        let mut nodes = vec![];
+        for node_dto in &self.nodes {
+            nodes.push(node_dto.to_model()?);
         }
+
+        let mut connections = vec![];
+        for connection_dto in &self.connections {
+            connections.push(connection_dto.to_model(&self.nodes)?);
+        }
+
+        Ok(Self::Model {
+            nodes,
+            connections
+        })
     }
 
-    fn from_model(target: &Self::Target) -> Self {
-        GraphDto {
-            nodes: target.nodes.iter()
-                    .map(|target_node| NodeDto::from_model(target_node))
-                    .collect(),
-            connections: target.connections.iter()
-                    .map(|target_connection| ConnectionDto::from_model(target_connection, &target.nodes))
-                    .collect()
+    fn from_model(model: &Self::Model) -> Result<Self::Source, Box<dyn Error>> {
+
+        let mut nodes = vec![];
+        for node in &model.nodes {
+            nodes.push(NodeDto::from_model(node)?);
         }
+
+        let mut connections = vec![];
+        for connection in &model.connections {
+            connections.push(ConnectionDto::from_model(connection, &model.nodes)?);
+        }
+
+        Ok(Self {
+            nodes,
+            connections
+        })
     }
 }
