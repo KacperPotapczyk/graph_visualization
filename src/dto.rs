@@ -1,4 +1,4 @@
-use std::{error::Error, fmt::Display, vec};
+use std::{collections::HashSet, error::Error, fmt::Display, vec};
 
 use super::{Graph, Node, Connection, Coordinates};
 use serde::{Deserialize, Serialize};
@@ -103,24 +103,22 @@ impl RelationDto for ConnectionDto {
 
     fn to_model(&self, node_dtos: &Self::RelatedDto) -> Result<Self::Model, Box<dyn Error>> {
 
-
         let index1 = node_dtos.iter().position(|node| node.label == self.node1);
         let index2 = node_dtos.iter().position(|node| node.label == self.node2);
 
-        if index1.is_none() {
-            return Err(Box::new(
-                DtoError("Connection is invalid! Could not find node with label: ".to_string() + &self.node1)
-            ))
-        }
-        if index2.is_none() {
-            return Err(Box::new(
-                DtoError("Connection is invalid! Could not find node with label: ".to_string() + &self.node2)
-            ))
-        }
-
         Ok(Self::Model {
-            index1: index1.unwrap(),
-            index2: index2.unwrap(),
+            index1: match index1 {
+                Some(index) => index,
+                None => return Err(Box::new(
+                    DtoError("Connection is invalid! Could not find node with label: ".to_string() + &self.node1)
+                ))
+            },
+            index2: match index2 {
+                Some(index) => index,
+                None => return Err(Box::new(
+                    DtoError("Connection is invalid! Could not find node with label: ".to_string() + &self.node2)
+                ))
+            },
             stiffness: self.stiffness.unwrap_or(DEFAULT_STIFFNESS)
         })
     }
@@ -146,8 +144,15 @@ impl Dto for GraphDto {
 
     fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
 
+        let mut node_labels = HashSet::new();
         let mut nodes = vec![];
         for node_dto in &self.nodes {
+            if node_labels.contains(&node_dto.label) {
+                return Err(Box::new(
+                    DtoError("Node is invalid! Duplicate label: ".to_string() + &node_dto.label)
+                ))
+            }
+            node_labels.insert(node_dto.label.clone());
             nodes.push(node_dto.to_model()?);
         }
 
