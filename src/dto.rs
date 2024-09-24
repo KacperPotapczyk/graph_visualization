@@ -59,7 +59,7 @@ impl Dto for CoordinatesDto {
 pub struct NodeDto {
     coordinates: CoordinatesDto,
     label: String,
-    description: Option<String>,
+    content: Option<String>,
     font_size: Option<f32>,
     charge: Option<f64>,
 }
@@ -71,7 +71,8 @@ impl Dto for NodeDto {
     fn to_model(&self) -> Result<Self::Model, Box<dyn Error>> {
         Ok(Self::Model {
             coordinates: self.coordinates.to_model()?,
-            label: self.description.clone().unwrap_or(self.label.clone()),
+            label: self.label.clone(),
+            content: self.content.clone().unwrap_or(self.label.clone()),
             font_size: self.font_size.unwrap_or(DEFAULT_FONT_SIZE),
             charge: self.charge.unwrap_or(DEFAULT_CHARGE)
         })
@@ -81,7 +82,7 @@ impl Dto for NodeDto {
         Ok(Self {
             coordinates: CoordinatesDto::from_model(&model.coordinates)?,
             label: model.label.clone(),
-            description: None,
+            content: Some(model.content.clone()),
             font_size: Some(model.font_size),
             charge: Some(model.charge)
         })
@@ -221,14 +222,14 @@ mod tests {
         let x = 3.14;
         let y = -1.0;
         let label = "node_label".to_string();
-        let description = "node_description".to_string();
+        let content = "node_content".to_string();
         let font_size = 9.0;
         let charge = 1e2;
 
         let node_dto = NodeDto {
             coordinates: CoordinatesDto {x, y},
-            label,
-            description: Some(description.clone()),
+            label: label.clone(),
+            content: Some(content.clone()),
             font_size: Some(font_size),
             charge: Some(charge)
         };
@@ -236,7 +237,8 @@ mod tests {
 
         assert_approx_eq!(x, node.coordinates.x, EPS);
         assert_approx_eq!(y, node.coordinates.y, EPS);
-        assert_eq!(description, node.label);
+        assert_eq!(label, node.label);
+        assert_eq!(content, node.content);
         assert_approx_eq!(font_size, node.font_size, 1e-6);
         assert_approx_eq!(charge, node.charge, EPS);
     }
@@ -246,11 +248,12 @@ mod tests {
         let x = 3.14;
         let y = -1.0;
         let label = "node_label".to_string();
+        let content = "node_content".to_string();
 
         let node_dto = NodeDto {
             coordinates: CoordinatesDto {x, y},
             label: label.clone(),
-            description: None,
+            content: Some(content.clone()),
             font_size: None,
             charge: None
         };
@@ -259,6 +262,7 @@ mod tests {
         assert_approx_eq!(x, node.coordinates.x, EPS);
         assert_approx_eq!(y, node.coordinates.y, EPS);
         assert_eq!(label, node.label);
+        assert_eq!(content, node.content);
         assert_approx_eq!(DEFAULT_FONT_SIZE, node.font_size, 1e-6);
         assert_approx_eq!(DEFAULT_CHARGE, node.charge, EPS);
     }
@@ -268,12 +272,14 @@ mod tests {
         let x = 3.14;
         let y = -1.0;
         let label = "node_label".to_string();
+        let content = "node_content".to_string();
         let font_size = 9.0;
         let charge = 1e2;
 
         let node = Node {
             coordinates: Coordinates {x, y},
             label: label.clone(),
+            content: content.clone(),
             font_size,
             charge
         };
@@ -283,6 +289,7 @@ mod tests {
         assert_approx_eq!(x, node_dto.coordinates.x, EPS);
         assert_approx_eq!(y, node_dto.coordinates.y, EPS);
         assert_eq!(label, node_dto.label);
+        assert_eq!(content, node_dto.content.unwrap());
         assert_approx_eq!(font_size, node_dto.font_size.unwrap(), 1e-6);
         assert_approx_eq!(charge, node_dto.charge.unwrap(), EPS);
     }
@@ -298,9 +305,9 @@ mod tests {
         let stiffness = 10.0;
 
         let node_dtos = vec![
-            NodeDto {coordinates: node_1_coordinates, label: node_1_label.clone(), description: None, font_size: None, charge: None},
-            NodeDto {coordinates: node_2_coordinates, label: node_2_label.clone(), description: None, font_size: None, charge: None},
-            NodeDto {coordinates: node_3_coordinates, label: node_3_label.clone(), description: None, font_size: None, charge: None}
+            NodeDto {coordinates: node_1_coordinates, label: node_1_label.clone(), content: None, font_size: None, charge: None},
+            NodeDto {coordinates: node_2_coordinates, label: node_2_label.clone(), content: None, font_size: None, charge: None},
+            NodeDto {coordinates: node_3_coordinates, label: node_3_label.clone(), content: None, font_size: None, charge: None}
         ];
 
         let connection_dto = ConnectionDto {
@@ -321,15 +328,12 @@ mod tests {
         let node_1_label = "A".to_string();
         let node_2_label = "B".to_string();
         let node_3_label = "C".to_string();
-        let node_1_coordinates = Coordinates {x: 1.0, y: 2.0};
-        let node_2_coordinates = Coordinates {x: 1.0, y: 2.0};
-        let node_3_coordinates = Coordinates {x: 1.0, y: 2.0};
         let stiffness = 10.0;
 
         let nodes = vec![
-            Node {coordinates: node_1_coordinates, label: node_1_label.clone(), font_size: 12.0, charge: 1e2},
-            Node {coordinates: node_2_coordinates, label: node_2_label.clone(), font_size: 12.0, charge: 1e2},
-            Node {coordinates: node_3_coordinates, label: node_3_label.clone(), font_size: 12.0, charge: 1e2}
+            Node::new(1.0, 2.0, node_1_label.clone(), 12.0, 1e2),
+            Node::new(1.0, 2.0, node_2_label.clone(), 12.0, 1e2),
+            Node::new(1.0, 2.0, node_3_label.clone(), 12.0, 1e2)
         ];
 
         let connection = Connection {
@@ -354,8 +358,8 @@ mod tests {
         let stiffness = 10.0;
 
         let node_dtos = vec![
-            NodeDto {coordinates: node_1_coordinates, label: node_1_label.clone(), description: None, font_size: None, charge: None},
-            NodeDto {coordinates: node_2_coordinates, label: node_2_label.clone(), description: None, font_size: None, charge: None},
+            NodeDto {coordinates: node_1_coordinates, label: node_1_label.clone(), content: None, font_size: None, charge: None},
+            NodeDto {coordinates: node_2_coordinates, label: node_2_label.clone(), content: None, font_size: None, charge: None},
         ];
 
         let connection_dtos = vec![
@@ -378,13 +382,11 @@ mod tests {
     fn graph_to_graph_dto() {
         let node_1_label = "A".to_string();
         let node_2_label = "B".to_string();
-        let node_1_coordinates = Coordinates {x: 1.0, y: 2.0};
-        let node_2_coordinates = Coordinates {x: 10.0, y: 20.0};
         let stiffness = 10.0;
 
         let nodes = vec![
-            Node {coordinates: node_1_coordinates, label: node_1_label.clone(), font_size: 12.0, charge: 1e3},
-            Node {coordinates: node_2_coordinates, label: node_2_label.clone(), font_size: 12.0, charge: 1e3},
+            Node::new(1.0, 2.0, node_1_label.clone(), 12.0, 1e3),
+            Node::new(10.0, 20.0, node_2_label.clone(), 12.0, 1e3)
         ];
 
         let connections = vec![

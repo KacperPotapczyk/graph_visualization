@@ -33,6 +33,7 @@ impl Clone for Coordinates {
 pub struct Node {
     coordinates: Coordinates,
     label: String,
+    content: String,
     font_size: f32,
     charge: f64,
 }
@@ -41,7 +42,8 @@ impl Node {
     pub fn new(x: f64, y: f64, label: String, font_size: f32, charge: f64) -> Self {
         Node {
             coordinates: Coordinates {x, y},
-            label,
+            label: label.clone(),
+            content: label,
             font_size,
             charge
         }
@@ -104,7 +106,7 @@ impl PdfNode {
     fn from_node(node: &Node) -> Self {
         let font_size = node.font_size;
         let font_width = 0.6 * font_size;
-        let label_width = Pt(node.label.len() as f32 * font_width);
+        let label_width = Pt(node.content.len() as f32 * font_width);
 
         let left_padding = Pt(font_width);
         let right_padding = Pt(font_width);
@@ -114,7 +116,7 @@ impl PdfNode {
         PdfNode {
             left: Mm(node.coordinates.x as f32) - Mm::from(left_padding) - Mm::from(label_width / 2.0),
             bottom: Mm(node.coordinates.y as f32) - Mm::from(right_padding) - Mm::from(Pt(font_size) / 2.0),
-            text: node.label.clone(),
+            text: node.content.clone(),
             text_left: Mm(node.coordinates.x as f32) - Mm::from(label_width / 2.0),
             text_bottom: Mm(node.coordinates.y as f32) - Mm::from(Pt(font_size) / 2.0),
             font_size,
