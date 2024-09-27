@@ -4,79 +4,79 @@ use super::{Node, Connection, Coordinates};
 
 pub fn solve(nodes: &Vec<Node>, connections: &Vec<Connection>, max_iterations: u32) -> Vec<Coordinates> {
 
-        let size = nodes.len();
-        let electroctatic_constant = 1.0;
-        let mut step = 0.005;
-        let eps: f64 = 1e-6;
-        
-        let mut position = DVector::<f64>::zeros(2*size);
-        let mut total_force = 0.0;
+    let size = nodes.len();
+    let electroctatic_constant = 1.0;
+    let mut step = 0.005;
+    let eps: f64 = 1e-6;
+    
+    let mut position = DVector::<f64>::zeros(2*size);
+    let mut total_force = 0.0;
 
-        let mut index=0;
-        for node in nodes {
-            let pos = &node.coordinates;
-            position[index] = pos.x;
-            index += 1;
-            position[index] = pos.y;
-            index += 1;
+    let mut index=0;
+    for node in nodes {
+        let pos = &node.coordinates;
+        position[index] = pos.x;
+        index += 1;
+        position[index] = pos.y;
+        index += 1;
+    }
+
+    let mut iteration = 0;
+    let mut solution_found = false;
+    let mut gradient_prev;
+
+    while solution_found == false {
+
+        if iteration >= max_iterations {
+            println!("Solution stopped due to reaching max iteration number");
+            break;
         }
 
-        let mut iteration = 0;
-        let mut solution_found = false;
-        let mut gradient_prev;
+        iteration += 1;
 
-        while solution_found == false {
+        let previous_total_force = total_force;
 
-            if iteration >= max_iterations {
-                println!("Solution stopped due to reaching max iteration number");
-                break;
-            }
+        let mut gradient = DVector::<f64>::zeros(2*size);
+        let previous_position = position.clone();
+        evaluate_force_and_gradient(size, electroctatic_constant, nodes, &position, &mut total_force, connections, &mut gradient);
 
-            iteration += 1;
+        let direction = gradient.scale(-1.0);
+        gradient_prev = gradient.clone();
 
-            let previous_total_force = total_force;
+        line_search(&mut position, &direction, electroctatic_constant, nodes, connections, step);
+        evaluate_force_and_gradient(size, electroctatic_constant, nodes, &position, &mut total_force, connections, &mut gradient);
 
-            let mut gradient = DVector::<f64>::zeros(2*size);
-            let previous_position = position.clone();
-            evaluate_force_and_gradient(size, electroctatic_constant, nodes, &position, &mut total_force, connections, &mut gradient);
+        if previous_total_force < total_force {
+            step *= 0.5;
+        } 
 
-            let direction = gradient.scale(-1.0);
-            gradient_prev = gradient.clone();
-
-            line_search(&mut position, &direction, electroctatic_constant, nodes, connections, step);
-            evaluate_force_and_gradient(size, electroctatic_constant, nodes, &position, &mut total_force, connections, &mut gradient);
-
-            if previous_total_force < total_force {
-                step *= 0.5;
-            } 
-
-            if (gradient_prev.clone() - gradient.clone()).norm() / gradient.norm() < eps {
-                solution_found = true;
-                println!("Solution found on relative gradient improvement < {}", eps);
-            }
-
-            if (previous_position - position.clone()).norm() / position.norm() < eps {
-                solution_found = true;
-                println!("Solution found on relative solution improvement < {}", eps);
-            }
-
-            if (previous_total_force - total_force).abs() / total_force < eps {
-                solution_found = true;
-                println!("Solution found on relative total force change < {}", eps);
-            }
-
-            println!("Iter: {}, total_force: {}, gradient_norm: {}", iteration, total_force, gradient.norm());
+        if (gradient_prev.clone() - gradient.clone()).norm() / gradient.norm() < eps {
+            solution_found = true;
+            println!("Solution found on relative gradient improvement < {}", eps);
         }
 
-        let mut positions = Vec::with_capacity(size);
-        for i in 0..size {
-            positions.push(Coordinates {
-                x: position[2*i],
-                y: position[2*i+1]
-            });
+        if (previous_position - position.clone()).norm() / position.norm() < eps {
+            solution_found = true;
+            println!("Solution found on relative solution improvement < {}", eps);
         }
 
-        return positions;
+        if (previous_total_force - total_force).abs() / total_force < eps {
+            solution_found = true;
+            println!("Solution found on relative total force change < {}", eps);
+        }
+
+        println!("Iter: {}, total_force: {}, gradient_norm: {}", iteration, total_force, gradient.norm());
+    }
+
+    let mut positions = Vec::with_capacity(size);
+    for i in 0..size {
+        positions.push(Coordinates {
+            x: position[2*i],
+            y: position[2*i+1]
+        });
+    }
+
+    return positions;
 }
 
 fn line_search(
@@ -200,21 +200,18 @@ fn evaluate_force_and_gradient(
         gradient[2*i+1] = 0.0;
     }
 
+    let (dx, dy) = distance_along_axis(size, &position);
+    let distance_square = evaluate_distance_squared(size, &dx, &dy);
 
     for i in 0..size {
-        for j in i..size {
+        for j in i+1..size {
 
-            if i == j {
-                continue;
-            }
             let force_multiplier = 2.0 * electroctatic_constant * &nodes[i].get_charge() * &nodes[j].get_charge();
-            let dx = position[2*i] - position[2*j];
-            let dy = position[2*i+1] - position[2*j+1];
-            let distance_double_squared = (dx.powf(2.0) + dy.powf(2.0)).powf(2.0);
-            *total_force += 2.0*force_multiplier / (dx.powf(2.0) + dy.powf(2.0));
+            let distance_double_squared = distance_square[(i, j)].powf(2.0);
+            *total_force += 2.0*force_multiplier / distance_square[(i, j)];
 
-            let x_gradient = -1.0 * force_multiplier * dx / distance_double_squared;
-            let y_gradient = -1.0 * force_multiplier * dy / distance_double_squared;
+            let x_gradient = -1.0 * force_multiplier * dx[(i, j)] / distance_double_squared;
+            let y_gradient = -1.0 * force_multiplier * dy[(i, j)] / distance_double_squared;
             if i == 0 {
                 partial_x_gradient[(i, j)] = 0.0;
                 partial_y_gradient[(i, j)] = 0.0;
@@ -232,13 +229,10 @@ fn evaluate_force_and_gradient(
         let node2_index = connection.index2;
         let k = connection.get_stifness();
 
-        let dx = position[2*node1_index] - position[2*node2_index];
-        let dy = position[2*node1_index+1] - position[2*node2_index+1];
+        let x_force_gradient = 2.0*k*dx[(node1_index, node2_index)];
+        let y_force_gradient = 2.0*k*dy[(node1_index, node2_index)];
 
-        let x_force_gradient = 2.0*k*dx;
-        let y_force_gradient = 2.0*k*dy;
-
-        *total_force += 2.0*k*(dx.powf(2.0) + dy.powf(2.0)).sqrt();
+        *total_force += 2.0*k*distance_square[(node1_index, node2_index)].sqrt();
 
         if node1_index != 0 {
             partial_x_gradient[(node1_index, node2_index)] += x_force_gradient;
@@ -257,6 +251,42 @@ fn evaluate_force_and_gradient(
             gradient[2*i+1] += partial_y_gradient[(i, j)];
         }
     }
+}
+
+fn evaluate_distance_squared(
+        size: usize,
+        dx: &DMatrix<f64>,
+        dy: &DMatrix<f64>
+    ) -> nalgebra::DMatrix<f64> {
+
+    let mut distance_squared = DMatrix::<f64>::zeros(size, size);
+    for i in 0..size {
+        for j in i+1..size {
+            let dist_square = dx[(i, j)].powf(2.0) + dy[(i, j)].powf(2.0);
+            distance_squared[(i, j)] = dist_square;
+            distance_squared[(j, i)] = dist_square;
+        }
+    }
+
+    return distance_squared;
+}
+
+fn distance_along_axis(
+        size: usize,
+        position: &nalgebra::Matrix<f64, nalgebra::Dyn, nalgebra::Const<1>, nalgebra::VecStorage<f64, nalgebra::Dyn, nalgebra::Const<1>>>
+    ) -> (DMatrix<f64>, DMatrix<f64>) {
+
+    let mut dx = DMatrix::<f64>::zeros(size, size);
+    let mut dy = DMatrix::<f64>::zeros(size, size);
+    for i in 0..size {
+        for j in i+1..size {
+            dx[(i, j)] = position[2*i] - position[2*j];
+            dx[(j, i)] = -dx[(i, j)];
+            dy[(i, j)] = position[2*i+1] - position[2*j+1];
+            dy[(j, i)] = -dy[(i, j)];
+        }
+    }
+    return (dx, dy);
 }
 
 #[cfg(test)]
