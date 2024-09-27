@@ -1,6 +1,4 @@
-use std::fs;
-
-use graph_visualization::{dto::{Dto, GraphDto}, organize_graph, print_graph_to_pdf, read_graph_from_file};
+use graph_visualization::{organize_graph, print_graph_to_pdf, read_graph_from_file, save_graph_to_file};
 use clap::Parser;
 
 /// Graph visualization tool
@@ -39,6 +37,6 @@ fn main() {
     print_graph_to_pdf(&graph, args.pdf).unwrap();
 
     if args.out_graph.is_some() {
-        fs::write(args.out_graph.unwrap(), serde_json::to_string_pretty(&GraphDto::from_model(&graph).unwrap()).unwrap()).unwrap();
+        save_graph_to_file(args.out_graph.unwrap(), &graph).unwrap();
     }
 }
