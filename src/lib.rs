@@ -89,6 +89,10 @@ impl Graph {
             self.nodes[i].coordinates = new_coordinates[i].clone();
         }
     }
+
+    pub fn new(nodes: Vec<Node>, connections: Vec<Connection>) -> Self {
+        Graph { nodes, connections }
+    }
 }
 
 struct PdfNode {
@@ -163,6 +167,11 @@ pub fn read_graph_from_file(file_path: String) -> Result<Graph, Box<dyn Error>> 
     let graph_dto: GraphDto = serde_json::from_str(&content)?;
     let graph: Graph = graph_dto.to_model()?;
     Ok(graph)
+}
+
+pub fn save_graph_to_file(file_path: String, graph: &Graph) -> Result<(), Box<dyn Error>> {
+    fs::write(file_path, serde_json::to_string_pretty(&GraphDto::from_model(&graph)?)?)?;
+    Ok(())
 }
 
 pub fn organize_graph(graph: &mut Graph, max_iterations: u32) {
