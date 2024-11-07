@@ -1,0 +1,7806 @@
+{
+  "nodes": [
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "label": "10000",
+      "content": "10000",
+      "font_size": 12.0,
+      "charge": 0.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 30.0
+      },
+      "label": "10010",
+      "content": "10010",
+      "font_size": 12.0,
+      "charge": 100.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 60.0
+      },
+      "label": "10020",
+      "content": "10020",
+      "font_size": 12.0,
+      "charge": 200.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 90.0
+      },
+      "label": "10030",
+      "content": "10030",
+      "font_size": 12.0,
+      "charge": 300.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 120.0
+      },
+      "label": "10040",
+      "content": "10040",
+      "font_size": 12.0,
+      "charge": 400.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 150.0
+      },
+      "label": "10050",
+      "content": "10050",
+      "font_size": 12.0,
+      "charge": 500.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 180.0
+      },
+      "label": "10060",
+      "content": "10060",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 210.0
+      },
+      "label": "10070",
+      "content": "10070",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 240.0
+      },
+      "label": "10080",
+      "content": "10080",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 270.0
+      },
+      "label": "10090",
+      "content": "10090",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 300.0
+      },
+      "label": "10100",
+      "content": "10100",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 330.0
+      },
+      "label": "10110",
+      "content": "10110",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 360.0
+      },
+      "label": "10120",
+      "content": "10120",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 390.0
+      },
+      "label": "10130",
+      "content": "10130",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 420.0
+      },
+      "label": "10140",
+      "content": "10140",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 450.0
+      },
+      "label": "10150",
+      "content": "10150",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 480.0
+      },
+      "label": "10160",
+      "content": "10160",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 510.0
+      },
+      "label": "10170",
+      "content": "10170",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 540.0
+      },
+      "label": "10180",
+      "content": "10180",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 0.0,
+        "y": 570.0
+      },
+      "label": "10190",
+      "content": "10190",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 0.0
+      },
+      "label": "10001",
+      "content": "10001",
+      "font_size": 12.0,
+      "charge": 100.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 30.0
+      },
+      "label": "10011",
+      "content": "10011",
+      "font_size": 12.0,
+      "charge": 200.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 60.0
+      },
+      "label": "10021",
+      "content": "10021",
+      "font_size": 12.0,
+      "charge": 300.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 90.0
+      },
+      "label": "10031",
+      "content": "10031",
+      "font_size": 12.0,
+      "charge": 400.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 120.0
+      },
+      "label": "10041",
+      "content": "10041",
+      "font_size": 12.0,
+      "charge": 500.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 150.0
+      },
+      "label": "10051",
+      "content": "10051",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 180.0
+      },
+      "label": "10061",
+      "content": "10061",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 210.0
+      },
+      "label": "10071",
+      "content": "10071",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 240.0
+      },
+      "label": "10081",
+      "content": "10081",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 270.0
+      },
+      "label": "10091",
+      "content": "10091",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 300.0
+      },
+      "label": "10101",
+      "content": "10101",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 330.0
+      },
+      "label": "10111",
+      "content": "10111",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 360.0
+      },
+      "label": "10121",
+      "content": "10121",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 390.0
+      },
+      "label": "10131",
+      "content": "10131",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 420.0
+      },
+      "label": "10141",
+      "content": "10141",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 450.0
+      },
+      "label": "10151",
+      "content": "10151",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 480.0
+      },
+      "label": "10161",
+      "content": "10161",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 510.0
+      },
+      "label": "10171",
+      "content": "10171",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 540.0
+      },
+      "label": "10181",
+      "content": "10181",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 30.0,
+        "y": 570.0
+      },
+      "label": "10191",
+      "content": "10191",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 0.0
+      },
+      "label": "10002",
+      "content": "10002",
+      "font_size": 12.0,
+      "charge": 200.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 30.0
+      },
+      "label": "10012",
+      "content": "10012",
+      "font_size": 12.0,
+      "charge": 300.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 60.0
+      },
+      "label": "10022",
+      "content": "10022",
+      "font_size": 12.0,
+      "charge": 400.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 90.0
+      },
+      "label": "10032",
+      "content": "10032",
+      "font_size": 12.0,
+      "charge": 500.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 120.0
+      },
+      "label": "10042",
+      "content": "10042",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 150.0
+      },
+      "label": "10052",
+      "content": "10052",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 180.0
+      },
+      "label": "10062",
+      "content": "10062",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 210.0
+      },
+      "label": "10072",
+      "content": "10072",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 240.0
+      },
+      "label": "10082",
+      "content": "10082",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 270.0
+      },
+      "label": "10092",
+      "content": "10092",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 300.0
+      },
+      "label": "10102",
+      "content": "10102",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 330.0
+      },
+      "label": "10112",
+      "content": "10112",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 360.0
+      },
+      "label": "10122",
+      "content": "10122",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 390.0
+      },
+      "label": "10132",
+      "content": "10132",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 420.0
+      },
+      "label": "10142",
+      "content": "10142",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 450.0
+      },
+      "label": "10152",
+      "content": "10152",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 480.0
+      },
+      "label": "10162",
+      "content": "10162",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 510.0
+      },
+      "label": "10172",
+      "content": "10172",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 540.0
+      },
+      "label": "10182",
+      "content": "10182",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 60.0,
+        "y": 570.0
+      },
+      "label": "10192",
+      "content": "10192",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 0.0
+      },
+      "label": "10003",
+      "content": "10003",
+      "font_size": 12.0,
+      "charge": 300.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 30.0
+      },
+      "label": "10013",
+      "content": "10013",
+      "font_size": 12.0,
+      "charge": 400.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 60.0
+      },
+      "label": "10023",
+      "content": "10023",
+      "font_size": 12.0,
+      "charge": 500.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 90.0
+      },
+      "label": "10033",
+      "content": "10033",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 120.0
+      },
+      "label": "10043",
+      "content": "10043",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 150.0
+      },
+      "label": "10053",
+      "content": "10053",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 180.0
+      },
+      "label": "10063",
+      "content": "10063",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 210.0
+      },
+      "label": "10073",
+      "content": "10073",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 240.0
+      },
+      "label": "10083",
+      "content": "10083",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 270.0
+      },
+      "label": "10093",
+      "content": "10093",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 300.0
+      },
+      "label": "10103",
+      "content": "10103",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 330.0
+      },
+      "label": "10113",
+      "content": "10113",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 360.0
+      },
+      "label": "10123",
+      "content": "10123",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 390.0
+      },
+      "label": "10133",
+      "content": "10133",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 420.0
+      },
+      "label": "10143",
+      "content": "10143",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 450.0
+      },
+      "label": "10153",
+      "content": "10153",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 480.0
+      },
+      "label": "10163",
+      "content": "10163",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 510.0
+      },
+      "label": "10173",
+      "content": "10173",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 540.0
+      },
+      "label": "10183",
+      "content": "10183",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 90.0,
+        "y": 570.0
+      },
+      "label": "10193",
+      "content": "10193",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 0.0
+      },
+      "label": "10004",
+      "content": "10004",
+      "font_size": 12.0,
+      "charge": 400.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 30.0
+      },
+      "label": "10014",
+      "content": "10014",
+      "font_size": 12.0,
+      "charge": 500.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 60.0
+      },
+      "label": "10024",
+      "content": "10024",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 90.0
+      },
+      "label": "10034",
+      "content": "10034",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 120.0
+      },
+      "label": "10044",
+      "content": "10044",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 150.0
+      },
+      "label": "10054",
+      "content": "10054",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 180.0
+      },
+      "label": "10064",
+      "content": "10064",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 210.0
+      },
+      "label": "10074",
+      "content": "10074",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 240.0
+      },
+      "label": "10084",
+      "content": "10084",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 270.0
+      },
+      "label": "10094",
+      "content": "10094",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 300.0
+      },
+      "label": "10104",
+      "content": "10104",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 330.0
+      },
+      "label": "10114",
+      "content": "10114",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 360.0
+      },
+      "label": "10124",
+      "content": "10124",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 390.0
+      },
+      "label": "10134",
+      "content": "10134",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 420.0
+      },
+      "label": "10144",
+      "content": "10144",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 450.0
+      },
+      "label": "10154",
+      "content": "10154",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 480.0
+      },
+      "label": "10164",
+      "content": "10164",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 510.0
+      },
+      "label": "10174",
+      "content": "10174",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 540.0
+      },
+      "label": "10184",
+      "content": "10184",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 120.0,
+        "y": 570.0
+      },
+      "label": "10194",
+      "content": "10194",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 0.0
+      },
+      "label": "10005",
+      "content": "10005",
+      "font_size": 12.0,
+      "charge": 500.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 30.0
+      },
+      "label": "10015",
+      "content": "10015",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 60.0
+      },
+      "label": "10025",
+      "content": "10025",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 90.0
+      },
+      "label": "10035",
+      "content": "10035",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 120.0
+      },
+      "label": "10045",
+      "content": "10045",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 150.0
+      },
+      "label": "10055",
+      "content": "10055",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 180.0
+      },
+      "label": "10065",
+      "content": "10065",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 210.0
+      },
+      "label": "10075",
+      "content": "10075",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 240.0
+      },
+      "label": "10085",
+      "content": "10085",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 270.0
+      },
+      "label": "10095",
+      "content": "10095",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 300.0
+      },
+      "label": "10105",
+      "content": "10105",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 330.0
+      },
+      "label": "10115",
+      "content": "10115",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 360.0
+      },
+      "label": "10125",
+      "content": "10125",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 390.0
+      },
+      "label": "10135",
+      "content": "10135",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 420.0
+      },
+      "label": "10145",
+      "content": "10145",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 450.0
+      },
+      "label": "10155",
+      "content": "10155",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 480.0
+      },
+      "label": "10165",
+      "content": "10165",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 510.0
+      },
+      "label": "10175",
+      "content": "10175",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 540.0
+      },
+      "label": "10185",
+      "content": "10185",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 150.0,
+        "y": 570.0
+      },
+      "label": "10195",
+      "content": "10195",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 0.0
+      },
+      "label": "10006",
+      "content": "10006",
+      "font_size": 12.0,
+      "charge": 600.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 30.0
+      },
+      "label": "10016",
+      "content": "10016",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 60.0
+      },
+      "label": "10026",
+      "content": "10026",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 90.0
+      },
+      "label": "10036",
+      "content": "10036",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 120.0
+      },
+      "label": "10046",
+      "content": "10046",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 150.0
+      },
+      "label": "10056",
+      "content": "10056",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 180.0
+      },
+      "label": "10066",
+      "content": "10066",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 210.0
+      },
+      "label": "10076",
+      "content": "10076",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 240.0
+      },
+      "label": "10086",
+      "content": "10086",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 270.0
+      },
+      "label": "10096",
+      "content": "10096",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 300.0
+      },
+      "label": "10106",
+      "content": "10106",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 330.0
+      },
+      "label": "10116",
+      "content": "10116",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 360.0
+      },
+      "label": "10126",
+      "content": "10126",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 390.0
+      },
+      "label": "10136",
+      "content": "10136",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 420.0
+      },
+      "label": "10146",
+      "content": "10146",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 450.0
+      },
+      "label": "10156",
+      "content": "10156",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 480.0
+      },
+      "label": "10166",
+      "content": "10166",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 510.0
+      },
+      "label": "10176",
+      "content": "10176",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 540.0
+      },
+      "label": "10186",
+      "content": "10186",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 180.0,
+        "y": 570.0
+      },
+      "label": "10196",
+      "content": "10196",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 0.0
+      },
+      "label": "10007",
+      "content": "10007",
+      "font_size": 12.0,
+      "charge": 700.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 30.0
+      },
+      "label": "10017",
+      "content": "10017",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 60.0
+      },
+      "label": "10027",
+      "content": "10027",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 90.0
+      },
+      "label": "10037",
+      "content": "10037",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 120.0
+      },
+      "label": "10047",
+      "content": "10047",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 150.0
+      },
+      "label": "10057",
+      "content": "10057",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 180.0
+      },
+      "label": "10067",
+      "content": "10067",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 210.0
+      },
+      "label": "10077",
+      "content": "10077",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 240.0
+      },
+      "label": "10087",
+      "content": "10087",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 270.0
+      },
+      "label": "10097",
+      "content": "10097",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 300.0
+      },
+      "label": "10107",
+      "content": "10107",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 330.0
+      },
+      "label": "10117",
+      "content": "10117",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 360.0
+      },
+      "label": "10127",
+      "content": "10127",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 390.0
+      },
+      "label": "10137",
+      "content": "10137",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 420.0
+      },
+      "label": "10147",
+      "content": "10147",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 450.0
+      },
+      "label": "10157",
+      "content": "10157",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 480.0
+      },
+      "label": "10167",
+      "content": "10167",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 510.0
+      },
+      "label": "10177",
+      "content": "10177",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 540.0
+      },
+      "label": "10187",
+      "content": "10187",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 210.0,
+        "y": 570.0
+      },
+      "label": "10197",
+      "content": "10197",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 0.0
+      },
+      "label": "10008",
+      "content": "10008",
+      "font_size": 12.0,
+      "charge": 800.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 30.0
+      },
+      "label": "10018",
+      "content": "10018",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 60.0
+      },
+      "label": "10028",
+      "content": "10028",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 90.0
+      },
+      "label": "10038",
+      "content": "10038",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 120.0
+      },
+      "label": "10048",
+      "content": "10048",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 150.0
+      },
+      "label": "10058",
+      "content": "10058",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 180.0
+      },
+      "label": "10068",
+      "content": "10068",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 210.0
+      },
+      "label": "10078",
+      "content": "10078",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 240.0
+      },
+      "label": "10088",
+      "content": "10088",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 270.0
+      },
+      "label": "10098",
+      "content": "10098",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 300.0
+      },
+      "label": "10108",
+      "content": "10108",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 330.0
+      },
+      "label": "10118",
+      "content": "10118",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 360.0
+      },
+      "label": "10128",
+      "content": "10128",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 390.0
+      },
+      "label": "10138",
+      "content": "10138",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 420.0
+      },
+      "label": "10148",
+      "content": "10148",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 450.0
+      },
+      "label": "10158",
+      "content": "10158",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 480.0
+      },
+      "label": "10168",
+      "content": "10168",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 510.0
+      },
+      "label": "10178",
+      "content": "10178",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 540.0
+      },
+      "label": "10188",
+      "content": "10188",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 240.0,
+        "y": 570.0
+      },
+      "label": "10198",
+      "content": "10198",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 0.0
+      },
+      "label": "10009",
+      "content": "10009",
+      "font_size": 12.0,
+      "charge": 900.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 30.0
+      },
+      "label": "10019",
+      "content": "10019",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 60.0
+      },
+      "label": "10029",
+      "content": "10029",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 90.0
+      },
+      "label": "10039",
+      "content": "10039",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 120.0
+      },
+      "label": "10049",
+      "content": "10049",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 150.0
+      },
+      "label": "10059",
+      "content": "10059",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 180.0
+      },
+      "label": "10069",
+      "content": "10069",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 210.0
+      },
+      "label": "10079",
+      "content": "10079",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 240.0
+      },
+      "label": "10089",
+      "content": "10089",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 270.0
+      },
+      "label": "10099",
+      "content": "10099",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 300.0
+      },
+      "label": "10109",
+      "content": "10109",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 330.0
+      },
+      "label": "10119",
+      "content": "10119",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 360.0
+      },
+      "label": "10129",
+      "content": "10129",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 390.0
+      },
+      "label": "10139",
+      "content": "10139",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 420.0
+      },
+      "label": "10149",
+      "content": "10149",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 450.0
+      },
+      "label": "10159",
+      "content": "10159",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 480.0
+      },
+      "label": "10169",
+      "content": "10169",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 510.0
+      },
+      "label": "10179",
+      "content": "10179",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 540.0
+      },
+      "label": "10189",
+      "content": "10189",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 270.0,
+        "y": 570.0
+      },
+      "label": "10199",
+      "content": "10199",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 0.0
+      },
+      "label": "100010",
+      "content": "100010",
+      "font_size": 12.0,
+      "charge": 1000.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 30.0
+      },
+      "label": "100110",
+      "content": "100110",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 60.0
+      },
+      "label": "100210",
+      "content": "100210",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 90.0
+      },
+      "label": "100310",
+      "content": "100310",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 120.0
+      },
+      "label": "100410",
+      "content": "100410",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 150.0
+      },
+      "label": "100510",
+      "content": "100510",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 180.0
+      },
+      "label": "100610",
+      "content": "100610",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 210.0
+      },
+      "label": "100710",
+      "content": "100710",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 240.0
+      },
+      "label": "100810",
+      "content": "100810",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 270.0
+      },
+      "label": "100910",
+      "content": "100910",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 300.0
+      },
+      "label": "101010",
+      "content": "101010",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 330.0
+      },
+      "label": "101110",
+      "content": "101110",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 360.0
+      },
+      "label": "101210",
+      "content": "101210",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 390.0
+      },
+      "label": "101310",
+      "content": "101310",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 420.0
+      },
+      "label": "101410",
+      "content": "101410",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 450.0
+      },
+      "label": "101510",
+      "content": "101510",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 480.0
+      },
+      "label": "101610",
+      "content": "101610",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 510.0
+      },
+      "label": "101710",
+      "content": "101710",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 540.0
+      },
+      "label": "101810",
+      "content": "101810",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 300.0,
+        "y": 570.0
+      },
+      "label": "101910",
+      "content": "101910",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 0.0
+      },
+      "label": "100011",
+      "content": "100011",
+      "font_size": 12.0,
+      "charge": 1100.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 30.0
+      },
+      "label": "100111",
+      "content": "100111",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 60.0
+      },
+      "label": "100211",
+      "content": "100211",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 90.0
+      },
+      "label": "100311",
+      "content": "100311",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 120.0
+      },
+      "label": "100411",
+      "content": "100411",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 150.0
+      },
+      "label": "100511",
+      "content": "100511",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 180.0
+      },
+      "label": "100611",
+      "content": "100611",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 210.0
+      },
+      "label": "100711",
+      "content": "100711",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 240.0
+      },
+      "label": "100811",
+      "content": "100811",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 270.0
+      },
+      "label": "100911",
+      "content": "100911",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 300.0
+      },
+      "label": "101011",
+      "content": "101011",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 330.0
+      },
+      "label": "101111",
+      "content": "101111",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 360.0
+      },
+      "label": "101211",
+      "content": "101211",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 390.0
+      },
+      "label": "101311",
+      "content": "101311",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 420.0
+      },
+      "label": "101411",
+      "content": "101411",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 450.0
+      },
+      "label": "101511",
+      "content": "101511",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 480.0
+      },
+      "label": "101611",
+      "content": "101611",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 510.0
+      },
+      "label": "101711",
+      "content": "101711",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 540.0
+      },
+      "label": "101811",
+      "content": "101811",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 330.0,
+        "y": 570.0
+      },
+      "label": "101911",
+      "content": "101911",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 0.0
+      },
+      "label": "100012",
+      "content": "100012",
+      "font_size": 12.0,
+      "charge": 1200.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 30.0
+      },
+      "label": "100112",
+      "content": "100112",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 60.0
+      },
+      "label": "100212",
+      "content": "100212",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 90.0
+      },
+      "label": "100312",
+      "content": "100312",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 120.0
+      },
+      "label": "100412",
+      "content": "100412",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 150.0
+      },
+      "label": "100512",
+      "content": "100512",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 180.0
+      },
+      "label": "100612",
+      "content": "100612",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 210.0
+      },
+      "label": "100712",
+      "content": "100712",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 240.0
+      },
+      "label": "100812",
+      "content": "100812",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 270.0
+      },
+      "label": "100912",
+      "content": "100912",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 300.0
+      },
+      "label": "101012",
+      "content": "101012",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 330.0
+      },
+      "label": "101112",
+      "content": "101112",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 360.0
+      },
+      "label": "101212",
+      "content": "101212",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 390.0
+      },
+      "label": "101312",
+      "content": "101312",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 420.0
+      },
+      "label": "101412",
+      "content": "101412",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 450.0
+      },
+      "label": "101512",
+      "content": "101512",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 480.0
+      },
+      "label": "101612",
+      "content": "101612",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 510.0
+      },
+      "label": "101712",
+      "content": "101712",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 540.0
+      },
+      "label": "101812",
+      "content": "101812",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 360.0,
+        "y": 570.0
+      },
+      "label": "101912",
+      "content": "101912",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 0.0
+      },
+      "label": "100013",
+      "content": "100013",
+      "font_size": 12.0,
+      "charge": 1300.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 30.0
+      },
+      "label": "100113",
+      "content": "100113",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 60.0
+      },
+      "label": "100213",
+      "content": "100213",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 90.0
+      },
+      "label": "100313",
+      "content": "100313",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 120.0
+      },
+      "label": "100413",
+      "content": "100413",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 150.0
+      },
+      "label": "100513",
+      "content": "100513",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 180.0
+      },
+      "label": "100613",
+      "content": "100613",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 210.0
+      },
+      "label": "100713",
+      "content": "100713",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 240.0
+      },
+      "label": "100813",
+      "content": "100813",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 270.0
+      },
+      "label": "100913",
+      "content": "100913",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 300.0
+      },
+      "label": "101013",
+      "content": "101013",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 330.0
+      },
+      "label": "101113",
+      "content": "101113",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 360.0
+      },
+      "label": "101213",
+      "content": "101213",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 390.0
+      },
+      "label": "101313",
+      "content": "101313",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 420.0
+      },
+      "label": "101413",
+      "content": "101413",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 450.0
+      },
+      "label": "101513",
+      "content": "101513",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 480.0
+      },
+      "label": "101613",
+      "content": "101613",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 510.0
+      },
+      "label": "101713",
+      "content": "101713",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 540.0
+      },
+      "label": "101813",
+      "content": "101813",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 390.0,
+        "y": 570.0
+      },
+      "label": "101913",
+      "content": "101913",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 0.0
+      },
+      "label": "100014",
+      "content": "100014",
+      "font_size": 12.0,
+      "charge": 1400.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 30.0
+      },
+      "label": "100114",
+      "content": "100114",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 60.0
+      },
+      "label": "100214",
+      "content": "100214",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 90.0
+      },
+      "label": "100314",
+      "content": "100314",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 120.0
+      },
+      "label": "100414",
+      "content": "100414",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 150.0
+      },
+      "label": "100514",
+      "content": "100514",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 180.0
+      },
+      "label": "100614",
+      "content": "100614",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 210.0
+      },
+      "label": "100714",
+      "content": "100714",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 240.0
+      },
+      "label": "100814",
+      "content": "100814",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 270.0
+      },
+      "label": "100914",
+      "content": "100914",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 300.0
+      },
+      "label": "101014",
+      "content": "101014",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 330.0
+      },
+      "label": "101114",
+      "content": "101114",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 360.0
+      },
+      "label": "101214",
+      "content": "101214",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 390.0
+      },
+      "label": "101314",
+      "content": "101314",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 420.0
+      },
+      "label": "101414",
+      "content": "101414",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 450.0
+      },
+      "label": "101514",
+      "content": "101514",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 480.0
+      },
+      "label": "101614",
+      "content": "101614",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 510.0
+      },
+      "label": "101714",
+      "content": "101714",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 540.0
+      },
+      "label": "101814",
+      "content": "101814",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 420.0,
+        "y": 570.0
+      },
+      "label": "101914",
+      "content": "101914",
+      "font_size": 12.0,
+      "charge": 3300.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 0.0
+      },
+      "label": "100015",
+      "content": "100015",
+      "font_size": 12.0,
+      "charge": 1500.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 30.0
+      },
+      "label": "100115",
+      "content": "100115",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 60.0
+      },
+      "label": "100215",
+      "content": "100215",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 90.0
+      },
+      "label": "100315",
+      "content": "100315",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 120.0
+      },
+      "label": "100415",
+      "content": "100415",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 150.0
+      },
+      "label": "100515",
+      "content": "100515",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 180.0
+      },
+      "label": "100615",
+      "content": "100615",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 210.0
+      },
+      "label": "100715",
+      "content": "100715",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 240.0
+      },
+      "label": "100815",
+      "content": "100815",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 270.0
+      },
+      "label": "100915",
+      "content": "100915",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 300.0
+      },
+      "label": "101015",
+      "content": "101015",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 330.0
+      },
+      "label": "101115",
+      "content": "101115",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 360.0
+      },
+      "label": "101215",
+      "content": "101215",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 390.0
+      },
+      "label": "101315",
+      "content": "101315",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 420.0
+      },
+      "label": "101415",
+      "content": "101415",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 450.0
+      },
+      "label": "101515",
+      "content": "101515",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 480.0
+      },
+      "label": "101615",
+      "content": "101615",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 510.0
+      },
+      "label": "101715",
+      "content": "101715",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 540.0
+      },
+      "label": "101815",
+      "content": "101815",
+      "font_size": 12.0,
+      "charge": 3300.0
+    },
+    {
+      "coordinates": {
+        "x": 450.0,
+        "y": 570.0
+      },
+      "label": "101915",
+      "content": "101915",
+      "font_size": 12.0,
+      "charge": 3400.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 0.0
+      },
+      "label": "100016",
+      "content": "100016",
+      "font_size": 12.0,
+      "charge": 1600.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 30.0
+      },
+      "label": "100116",
+      "content": "100116",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 60.0
+      },
+      "label": "100216",
+      "content": "100216",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 90.0
+      },
+      "label": "100316",
+      "content": "100316",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 120.0
+      },
+      "label": "100416",
+      "content": "100416",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 150.0
+      },
+      "label": "100516",
+      "content": "100516",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 180.0
+      },
+      "label": "100616",
+      "content": "100616",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 210.0
+      },
+      "label": "100716",
+      "content": "100716",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 240.0
+      },
+      "label": "100816",
+      "content": "100816",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 270.0
+      },
+      "label": "100916",
+      "content": "100916",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 300.0
+      },
+      "label": "101016",
+      "content": "101016",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 330.0
+      },
+      "label": "101116",
+      "content": "101116",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 360.0
+      },
+      "label": "101216",
+      "content": "101216",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 390.0
+      },
+      "label": "101316",
+      "content": "101316",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 420.0
+      },
+      "label": "101416",
+      "content": "101416",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 450.0
+      },
+      "label": "101516",
+      "content": "101516",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 480.0
+      },
+      "label": "101616",
+      "content": "101616",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 510.0
+      },
+      "label": "101716",
+      "content": "101716",
+      "font_size": 12.0,
+      "charge": 3300.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 540.0
+      },
+      "label": "101816",
+      "content": "101816",
+      "font_size": 12.0,
+      "charge": 3400.0
+    },
+    {
+      "coordinates": {
+        "x": 480.0,
+        "y": 570.0
+      },
+      "label": "101916",
+      "content": "101916",
+      "font_size": 12.0,
+      "charge": 3500.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 0.0
+      },
+      "label": "100017",
+      "content": "100017",
+      "font_size": 12.0,
+      "charge": 1700.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 30.0
+      },
+      "label": "100117",
+      "content": "100117",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 60.0
+      },
+      "label": "100217",
+      "content": "100217",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 90.0
+      },
+      "label": "100317",
+      "content": "100317",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 120.0
+      },
+      "label": "100417",
+      "content": "100417",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 150.0
+      },
+      "label": "100517",
+      "content": "100517",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 180.0
+      },
+      "label": "100617",
+      "content": "100617",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 210.0
+      },
+      "label": "100717",
+      "content": "100717",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 240.0
+      },
+      "label": "100817",
+      "content": "100817",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 270.0
+      },
+      "label": "100917",
+      "content": "100917",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 300.0
+      },
+      "label": "101017",
+      "content": "101017",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 330.0
+      },
+      "label": "101117",
+      "content": "101117",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 360.0
+      },
+      "label": "101217",
+      "content": "101217",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 390.0
+      },
+      "label": "101317",
+      "content": "101317",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 420.0
+      },
+      "label": "101417",
+      "content": "101417",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 450.0
+      },
+      "label": "101517",
+      "content": "101517",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 480.0
+      },
+      "label": "101617",
+      "content": "101617",
+      "font_size": 12.0,
+      "charge": 3300.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 510.0
+      },
+      "label": "101717",
+      "content": "101717",
+      "font_size": 12.0,
+      "charge": 3400.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 540.0
+      },
+      "label": "101817",
+      "content": "101817",
+      "font_size": 12.0,
+      "charge": 3500.0
+    },
+    {
+      "coordinates": {
+        "x": 510.0,
+        "y": 570.0
+      },
+      "label": "101917",
+      "content": "101917",
+      "font_size": 12.0,
+      "charge": 3600.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 0.0
+      },
+      "label": "100018",
+      "content": "100018",
+      "font_size": 12.0,
+      "charge": 1800.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 30.0
+      },
+      "label": "100118",
+      "content": "100118",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 60.0
+      },
+      "label": "100218",
+      "content": "100218",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 90.0
+      },
+      "label": "100318",
+      "content": "100318",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 120.0
+      },
+      "label": "100418",
+      "content": "100418",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 150.0
+      },
+      "label": "100518",
+      "content": "100518",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 180.0
+      },
+      "label": "100618",
+      "content": "100618",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 210.0
+      },
+      "label": "100718",
+      "content": "100718",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 240.0
+      },
+      "label": "100818",
+      "content": "100818",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 270.0
+      },
+      "label": "100918",
+      "content": "100918",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 300.0
+      },
+      "label": "101018",
+      "content": "101018",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 330.0
+      },
+      "label": "101118",
+      "content": "101118",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 360.0
+      },
+      "label": "101218",
+      "content": "101218",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 390.0
+      },
+      "label": "101318",
+      "content": "101318",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 420.0
+      },
+      "label": "101418",
+      "content": "101418",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 450.0
+      },
+      "label": "101518",
+      "content": "101518",
+      "font_size": 12.0,
+      "charge": 3300.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 480.0
+      },
+      "label": "101618",
+      "content": "101618",
+      "font_size": 12.0,
+      "charge": 3400.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 510.0
+      },
+      "label": "101718",
+      "content": "101718",
+      "font_size": 12.0,
+      "charge": 3500.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 540.0
+      },
+      "label": "101818",
+      "content": "101818",
+      "font_size": 12.0,
+      "charge": 3600.0
+    },
+    {
+      "coordinates": {
+        "x": 540.0,
+        "y": 570.0
+      },
+      "label": "101918",
+      "content": "101918",
+      "font_size": 12.0,
+      "charge": 3700.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 0.0
+      },
+      "label": "100019",
+      "content": "100019",
+      "font_size": 12.0,
+      "charge": 1900.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 30.0
+      },
+      "label": "100119",
+      "content": "100119",
+      "font_size": 12.0,
+      "charge": 2000.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 60.0
+      },
+      "label": "100219",
+      "content": "100219",
+      "font_size": 12.0,
+      "charge": 2100.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 90.0
+      },
+      "label": "100319",
+      "content": "100319",
+      "font_size": 12.0,
+      "charge": 2200.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 120.0
+      },
+      "label": "100419",
+      "content": "100419",
+      "font_size": 12.0,
+      "charge": 2300.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 150.0
+      },
+      "label": "100519",
+      "content": "100519",
+      "font_size": 12.0,
+      "charge": 2400.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 180.0
+      },
+      "label": "100619",
+      "content": "100619",
+      "font_size": 12.0,
+      "charge": 2500.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 210.0
+      },
+      "label": "100719",
+      "content": "100719",
+      "font_size": 12.0,
+      "charge": 2600.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 240.0
+      },
+      "label": "100819",
+      "content": "100819",
+      "font_size": 12.0,
+      "charge": 2700.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 270.0
+      },
+      "label": "100919",
+      "content": "100919",
+      "font_size": 12.0,
+      "charge": 2800.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 300.0
+      },
+      "label": "101019",
+      "content": "101019",
+      "font_size": 12.0,
+      "charge": 2900.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 330.0
+      },
+      "label": "101119",
+      "content": "101119",
+      "font_size": 12.0,
+      "charge": 3000.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 360.0
+      },
+      "label": "101219",
+      "content": "101219",
+      "font_size": 12.0,
+      "charge": 3100.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 390.0
+      },
+      "label": "101319",
+      "content": "101319",
+      "font_size": 12.0,
+      "charge": 3200.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 420.0
+      },
+      "label": "101419",
+      "content": "101419",
+      "font_size": 12.0,
+      "charge": 3300.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 450.0
+      },
+      "label": "101519",
+      "content": "101519",
+      "font_size": 12.0,
+      "charge": 3400.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 480.0
+      },
+      "label": "101619",
+      "content": "101619",
+      "font_size": 12.0,
+      "charge": 3500.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 510.0
+      },
+      "label": "101719",
+      "content": "101719",
+      "font_size": 12.0,
+      "charge": 3600.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 540.0
+      },
+      "label": "101819",
+      "content": "101819",
+      "font_size": 12.0,
+      "charge": 3700.0
+    },
+    {
+      "coordinates": {
+        "x": 570.0,
+        "y": 570.0
+      },
+      "label": "101919",
+      "content": "101919",
+      "font_size": 12.0,
+      "charge": 3800.0
+    }
+  ],
+  "connections": [
+    {
+      "node1": "10000",
+      "node2": "10010",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10000",
+      "node2": "10001",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10010",
+      "node2": "10020",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10010",
+      "node2": "10011",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10020",
+      "node2": "10030",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10020",
+      "node2": "10021",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10030",
+      "node2": "10040",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10030",
+      "node2": "10031",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10040",
+      "node2": "10050",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10040",
+      "node2": "10041",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10050",
+      "node2": "10060",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10050",
+      "node2": "10051",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10060",
+      "node2": "10070",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10060",
+      "node2": "10061",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10070",
+      "node2": "10080",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10070",
+      "node2": "10071",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10080",
+      "node2": "10090",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10080",
+      "node2": "10081",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10090",
+      "node2": "10100",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10090",
+      "node2": "10091",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10100",
+      "node2": "10110",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10100",
+      "node2": "10101",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10110",
+      "node2": "10120",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10110",
+      "node2": "10111",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10120",
+      "node2": "10130",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10120",
+      "node2": "10121",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10130",
+      "node2": "10140",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10130",
+      "node2": "10131",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10140",
+      "node2": "10150",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10140",
+      "node2": "10141",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10150",
+      "node2": "10160",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10150",
+      "node2": "10151",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10160",
+      "node2": "10170",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10160",
+      "node2": "10161",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10170",
+      "node2": "10180",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10170",
+      "node2": "10171",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10180",
+      "node2": "10190",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10180",
+      "node2": "10181",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10190",
+      "node2": "10191",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10001",
+      "node2": "10011",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10001",
+      "node2": "10002",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10011",
+      "node2": "10021",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10011",
+      "node2": "10012",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10021",
+      "node2": "10031",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10021",
+      "node2": "10022",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10031",
+      "node2": "10041",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10031",
+      "node2": "10032",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10041",
+      "node2": "10051",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10041",
+      "node2": "10042",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10051",
+      "node2": "10061",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10051",
+      "node2": "10052",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10061",
+      "node2": "10071",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10061",
+      "node2": "10062",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10071",
+      "node2": "10081",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10071",
+      "node2": "10072",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10081",
+      "node2": "10091",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10081",
+      "node2": "10082",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10091",
+      "node2": "10101",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10091",
+      "node2": "10092",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10101",
+      "node2": "10111",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10101",
+      "node2": "10102",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10111",
+      "node2": "10121",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10111",
+      "node2": "10112",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10121",
+      "node2": "10131",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10121",
+      "node2": "10122",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10131",
+      "node2": "10141",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10131",
+      "node2": "10132",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10141",
+      "node2": "10151",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10141",
+      "node2": "10142",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10151",
+      "node2": "10161",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10151",
+      "node2": "10152",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10161",
+      "node2": "10171",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10161",
+      "node2": "10162",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10171",
+      "node2": "10181",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10171",
+      "node2": "10172",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10181",
+      "node2": "10191",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10181",
+      "node2": "10182",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10191",
+      "node2": "10192",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10002",
+      "node2": "10012",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10002",
+      "node2": "10003",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10012",
+      "node2": "10022",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10012",
+      "node2": "10013",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10022",
+      "node2": "10032",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10022",
+      "node2": "10023",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10032",
+      "node2": "10042",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10032",
+      "node2": "10033",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10042",
+      "node2": "10052",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10042",
+      "node2": "10043",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10052",
+      "node2": "10062",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10052",
+      "node2": "10053",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10062",
+      "node2": "10072",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10062",
+      "node2": "10063",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10072",
+      "node2": "10082",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10072",
+      "node2": "10073",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10082",
+      "node2": "10092",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10082",
+      "node2": "10083",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10092",
+      "node2": "10102",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10092",
+      "node2": "10093",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10102",
+      "node2": "10112",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10102",
+      "node2": "10103",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10112",
+      "node2": "10122",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10112",
+      "node2": "10113",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10122",
+      "node2": "10132",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10122",
+      "node2": "10123",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10132",
+      "node2": "10142",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10132",
+      "node2": "10133",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10142",
+      "node2": "10152",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10142",
+      "node2": "10143",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10152",
+      "node2": "10162",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10152",
+      "node2": "10153",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10162",
+      "node2": "10172",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10162",
+      "node2": "10163",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10172",
+      "node2": "10182",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10172",
+      "node2": "10173",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10182",
+      "node2": "10192",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10182",
+      "node2": "10183",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10192",
+      "node2": "10193",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10003",
+      "node2": "10013",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10003",
+      "node2": "10004",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10013",
+      "node2": "10023",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10013",
+      "node2": "10014",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10023",
+      "node2": "10033",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10023",
+      "node2": "10024",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10033",
+      "node2": "10043",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10033",
+      "node2": "10034",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10043",
+      "node2": "10053",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10043",
+      "node2": "10044",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10053",
+      "node2": "10063",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10053",
+      "node2": "10054",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10063",
+      "node2": "10073",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10063",
+      "node2": "10064",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10073",
+      "node2": "10083",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10073",
+      "node2": "10074",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10083",
+      "node2": "10093",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10083",
+      "node2": "10084",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10093",
+      "node2": "10103",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10093",
+      "node2": "10094",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10103",
+      "node2": "10113",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10103",
+      "node2": "10104",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10113",
+      "node2": "10123",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10113",
+      "node2": "10114",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10123",
+      "node2": "10133",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10123",
+      "node2": "10124",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10133",
+      "node2": "10143",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10133",
+      "node2": "10134",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10143",
+      "node2": "10153",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10143",
+      "node2": "10144",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10153",
+      "node2": "10163",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10153",
+      "node2": "10154",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10163",
+      "node2": "10173",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10163",
+      "node2": "10164",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10173",
+      "node2": "10183",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10173",
+      "node2": "10174",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10183",
+      "node2": "10193",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10183",
+      "node2": "10184",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10193",
+      "node2": "10194",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10004",
+      "node2": "10014",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10004",
+      "node2": "10005",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10014",
+      "node2": "10024",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10014",
+      "node2": "10015",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10024",
+      "node2": "10034",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10024",
+      "node2": "10025",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10034",
+      "node2": "10044",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10034",
+      "node2": "10035",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10044",
+      "node2": "10054",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10044",
+      "node2": "10045",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10054",
+      "node2": "10064",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10054",
+      "node2": "10055",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10064",
+      "node2": "10074",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10064",
+      "node2": "10065",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10074",
+      "node2": "10084",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10074",
+      "node2": "10075",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10084",
+      "node2": "10094",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10084",
+      "node2": "10085",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10094",
+      "node2": "10104",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10094",
+      "node2": "10095",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10104",
+      "node2": "10114",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10104",
+      "node2": "10105",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10114",
+      "node2": "10124",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10114",
+      "node2": "10115",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10124",
+      "node2": "10134",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10124",
+      "node2": "10125",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10134",
+      "node2": "10144",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10134",
+      "node2": "10135",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10144",
+      "node2": "10154",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10144",
+      "node2": "10145",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10154",
+      "node2": "10164",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10154",
+      "node2": "10155",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10164",
+      "node2": "10174",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10164",
+      "node2": "10165",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10174",
+      "node2": "10184",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10174",
+      "node2": "10175",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10184",
+      "node2": "10194",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10184",
+      "node2": "10185",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10194",
+      "node2": "10195",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10005",
+      "node2": "10015",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10005",
+      "node2": "10006",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10015",
+      "node2": "10025",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10015",
+      "node2": "10016",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10025",
+      "node2": "10035",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10025",
+      "node2": "10026",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10035",
+      "node2": "10045",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10035",
+      "node2": "10036",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10045",
+      "node2": "10055",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10045",
+      "node2": "10046",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10055",
+      "node2": "10065",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10055",
+      "node2": "10056",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10065",
+      "node2": "10075",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10065",
+      "node2": "10066",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10075",
+      "node2": "10085",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10075",
+      "node2": "10076",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10085",
+      "node2": "10095",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10085",
+      "node2": "10086",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10095",
+      "node2": "10105",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10095",
+      "node2": "10096",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10105",
+      "node2": "10115",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10105",
+      "node2": "10106",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10115",
+      "node2": "10125",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10115",
+      "node2": "10116",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10125",
+      "node2": "10135",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10125",
+      "node2": "10126",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10135",
+      "node2": "10145",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10135",
+      "node2": "10136",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10145",
+      "node2": "10155",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10145",
+      "node2": "10146",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10155",
+      "node2": "10165",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10155",
+      "node2": "10156",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10165",
+      "node2": "10175",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10165",
+      "node2": "10166",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10175",
+      "node2": "10185",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10175",
+      "node2": "10176",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10185",
+      "node2": "10195",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10185",
+      "node2": "10186",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10195",
+      "node2": "10196",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10006",
+      "node2": "10016",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10006",
+      "node2": "10007",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10016",
+      "node2": "10026",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10016",
+      "node2": "10017",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10026",
+      "node2": "10036",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10026",
+      "node2": "10027",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10036",
+      "node2": "10046",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10036",
+      "node2": "10037",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10046",
+      "node2": "10056",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10046",
+      "node2": "10047",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10056",
+      "node2": "10066",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10056",
+      "node2": "10057",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10066",
+      "node2": "10076",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10066",
+      "node2": "10067",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10076",
+      "node2": "10086",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10076",
+      "node2": "10077",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10086",
+      "node2": "10096",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10086",
+      "node2": "10087",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10096",
+      "node2": "10106",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10096",
+      "node2": "10097",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10106",
+      "node2": "10116",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10106",
+      "node2": "10107",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10116",
+      "node2": "10126",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10116",
+      "node2": "10117",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10126",
+      "node2": "10136",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10126",
+      "node2": "10127",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10136",
+      "node2": "10146",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10136",
+      "node2": "10137",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10146",
+      "node2": "10156",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10146",
+      "node2": "10147",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10156",
+      "node2": "10166",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10156",
+      "node2": "10157",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10166",
+      "node2": "10176",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10166",
+      "node2": "10167",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10176",
+      "node2": "10186",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10176",
+      "node2": "10177",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10186",
+      "node2": "10196",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10186",
+      "node2": "10187",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10196",
+      "node2": "10197",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10007",
+      "node2": "10017",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10007",
+      "node2": "10008",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10017",
+      "node2": "10027",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10017",
+      "node2": "10018",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10027",
+      "node2": "10037",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10027",
+      "node2": "10028",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10037",
+      "node2": "10047",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10037",
+      "node2": "10038",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10047",
+      "node2": "10057",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10047",
+      "node2": "10048",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10057",
+      "node2": "10067",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10057",
+      "node2": "10058",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10067",
+      "node2": "10077",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10067",
+      "node2": "10068",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10077",
+      "node2": "10087",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10077",
+      "node2": "10078",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10087",
+      "node2": "10097",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10087",
+      "node2": "10088",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10097",
+      "node2": "10107",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10097",
+      "node2": "10098",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10107",
+      "node2": "10117",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10107",
+      "node2": "10108",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10117",
+      "node2": "10127",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10117",
+      "node2": "10118",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10127",
+      "node2": "10137",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10127",
+      "node2": "10128",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10137",
+      "node2": "10147",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10137",
+      "node2": "10138",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10147",
+      "node2": "10157",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10147",
+      "node2": "10148",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10157",
+      "node2": "10167",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10157",
+      "node2": "10158",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10167",
+      "node2": "10177",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10167",
+      "node2": "10168",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10177",
+      "node2": "10187",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10177",
+      "node2": "10178",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10187",
+      "node2": "10197",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10187",
+      "node2": "10188",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10197",
+      "node2": "10198",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10008",
+      "node2": "10018",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10008",
+      "node2": "10009",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10018",
+      "node2": "10028",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10018",
+      "node2": "10019",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10028",
+      "node2": "10038",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10028",
+      "node2": "10029",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10038",
+      "node2": "10048",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10038",
+      "node2": "10039",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10048",
+      "node2": "10058",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10048",
+      "node2": "10049",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10058",
+      "node2": "10068",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10058",
+      "node2": "10059",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10068",
+      "node2": "10078",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10068",
+      "node2": "10069",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10078",
+      "node2": "10088",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10078",
+      "node2": "10079",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10088",
+      "node2": "10098",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10088",
+      "node2": "10089",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10098",
+      "node2": "10108",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10098",
+      "node2": "10099",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10108",
+      "node2": "10118",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10108",
+      "node2": "10109",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10118",
+      "node2": "10128",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10118",
+      "node2": "10119",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10128",
+      "node2": "10138",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10128",
+      "node2": "10129",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10138",
+      "node2": "10148",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10138",
+      "node2": "10139",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10148",
+      "node2": "10158",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10148",
+      "node2": "10149",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10158",
+      "node2": "10168",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10158",
+      "node2": "10159",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10168",
+      "node2": "10178",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10168",
+      "node2": "10169",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10178",
+      "node2": "10188",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10178",
+      "node2": "10179",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10188",
+      "node2": "10198",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10188",
+      "node2": "10189",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10198",
+      "node2": "10199",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10009",
+      "node2": "10019",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10009",
+      "node2": "100010",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10019",
+      "node2": "10029",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "10019",
+      "node2": "100110",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10029",
+      "node2": "10039",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "10029",
+      "node2": "100210",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10039",
+      "node2": "10049",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "10039",
+      "node2": "100310",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10049",
+      "node2": "10059",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "10049",
+      "node2": "100410",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10059",
+      "node2": "10069",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "10059",
+      "node2": "100510",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10069",
+      "node2": "10079",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "10069",
+      "node2": "100610",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10079",
+      "node2": "10089",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "10079",
+      "node2": "100710",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10089",
+      "node2": "10099",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "10089",
+      "node2": "100810",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10099",
+      "node2": "10109",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "10099",
+      "node2": "100910",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10109",
+      "node2": "10119",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "10109",
+      "node2": "101010",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10119",
+      "node2": "10129",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "10119",
+      "node2": "101110",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10129",
+      "node2": "10139",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "10129",
+      "node2": "101210",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10139",
+      "node2": "10149",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "10139",
+      "node2": "101310",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10149",
+      "node2": "10159",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "10149",
+      "node2": "101410",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10159",
+      "node2": "10169",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "10159",
+      "node2": "101510",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10169",
+      "node2": "10179",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "10169",
+      "node2": "101610",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10179",
+      "node2": "10189",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "10179",
+      "node2": "101710",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10189",
+      "node2": "10199",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "10189",
+      "node2": "101810",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "10199",
+      "node2": "101910",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100010",
+      "node2": "100110",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100010",
+      "node2": "100011",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100110",
+      "node2": "100210",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100110",
+      "node2": "100111",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100210",
+      "node2": "100310",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100210",
+      "node2": "100211",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100310",
+      "node2": "100410",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100310",
+      "node2": "100311",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100410",
+      "node2": "100510",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100410",
+      "node2": "100411",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100510",
+      "node2": "100610",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100510",
+      "node2": "100511",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100610",
+      "node2": "100710",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100610",
+      "node2": "100611",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100710",
+      "node2": "100810",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100710",
+      "node2": "100711",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100810",
+      "node2": "100910",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100810",
+      "node2": "100811",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100910",
+      "node2": "101010",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100910",
+      "node2": "100911",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101010",
+      "node2": "101110",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101010",
+      "node2": "101011",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101110",
+      "node2": "101210",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101110",
+      "node2": "101111",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101210",
+      "node2": "101310",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101210",
+      "node2": "101211",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101310",
+      "node2": "101410",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101310",
+      "node2": "101311",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101410",
+      "node2": "101510",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101410",
+      "node2": "101411",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101510",
+      "node2": "101610",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101510",
+      "node2": "101511",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101610",
+      "node2": "101710",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101610",
+      "node2": "101611",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101710",
+      "node2": "101810",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101710",
+      "node2": "101711",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101810",
+      "node2": "101910",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101810",
+      "node2": "101811",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101910",
+      "node2": "101911",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100011",
+      "node2": "100111",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100011",
+      "node2": "100012",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100111",
+      "node2": "100211",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100111",
+      "node2": "100112",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100211",
+      "node2": "100311",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100211",
+      "node2": "100212",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100311",
+      "node2": "100411",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100311",
+      "node2": "100312",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100411",
+      "node2": "100511",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100411",
+      "node2": "100412",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100511",
+      "node2": "100611",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100511",
+      "node2": "100512",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100611",
+      "node2": "100711",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100611",
+      "node2": "100612",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100711",
+      "node2": "100811",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100711",
+      "node2": "100712",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100811",
+      "node2": "100911",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100811",
+      "node2": "100812",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100911",
+      "node2": "101011",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100911",
+      "node2": "100912",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101011",
+      "node2": "101111",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101011",
+      "node2": "101012",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101111",
+      "node2": "101211",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101111",
+      "node2": "101112",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101211",
+      "node2": "101311",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101211",
+      "node2": "101212",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101311",
+      "node2": "101411",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101311",
+      "node2": "101312",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101411",
+      "node2": "101511",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101411",
+      "node2": "101412",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101511",
+      "node2": "101611",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101511",
+      "node2": "101512",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101611",
+      "node2": "101711",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101611",
+      "node2": "101612",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101711",
+      "node2": "101811",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101711",
+      "node2": "101712",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101811",
+      "node2": "101911",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101811",
+      "node2": "101812",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101911",
+      "node2": "101912",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100012",
+      "node2": "100112",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100012",
+      "node2": "100013",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100112",
+      "node2": "100212",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100112",
+      "node2": "100113",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100212",
+      "node2": "100312",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100212",
+      "node2": "100213",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100312",
+      "node2": "100412",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100312",
+      "node2": "100313",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100412",
+      "node2": "100512",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100412",
+      "node2": "100413",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100512",
+      "node2": "100612",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100512",
+      "node2": "100513",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100612",
+      "node2": "100712",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100612",
+      "node2": "100613",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100712",
+      "node2": "100812",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100712",
+      "node2": "100713",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100812",
+      "node2": "100912",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100812",
+      "node2": "100813",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100912",
+      "node2": "101012",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100912",
+      "node2": "100913",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101012",
+      "node2": "101112",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101012",
+      "node2": "101013",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101112",
+      "node2": "101212",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101112",
+      "node2": "101113",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101212",
+      "node2": "101312",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101212",
+      "node2": "101213",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101312",
+      "node2": "101412",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101312",
+      "node2": "101313",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101412",
+      "node2": "101512",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101412",
+      "node2": "101413",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101512",
+      "node2": "101612",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101512",
+      "node2": "101513",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101612",
+      "node2": "101712",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101612",
+      "node2": "101613",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101712",
+      "node2": "101812",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101712",
+      "node2": "101713",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101812",
+      "node2": "101912",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101812",
+      "node2": "101813",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101912",
+      "node2": "101913",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100013",
+      "node2": "100113",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100013",
+      "node2": "100014",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100113",
+      "node2": "100213",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100113",
+      "node2": "100114",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100213",
+      "node2": "100313",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100213",
+      "node2": "100214",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100313",
+      "node2": "100413",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100313",
+      "node2": "100314",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100413",
+      "node2": "100513",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100413",
+      "node2": "100414",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100513",
+      "node2": "100613",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100513",
+      "node2": "100514",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100613",
+      "node2": "100713",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100613",
+      "node2": "100614",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100713",
+      "node2": "100813",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100713",
+      "node2": "100714",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100813",
+      "node2": "100913",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100813",
+      "node2": "100814",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100913",
+      "node2": "101013",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100913",
+      "node2": "100914",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101013",
+      "node2": "101113",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101013",
+      "node2": "101014",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101113",
+      "node2": "101213",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101113",
+      "node2": "101114",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101213",
+      "node2": "101313",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101213",
+      "node2": "101214",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101313",
+      "node2": "101413",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101313",
+      "node2": "101314",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101413",
+      "node2": "101513",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101413",
+      "node2": "101414",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101513",
+      "node2": "101613",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101513",
+      "node2": "101514",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101613",
+      "node2": "101713",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101613",
+      "node2": "101614",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101713",
+      "node2": "101813",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101713",
+      "node2": "101714",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101813",
+      "node2": "101913",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101813",
+      "node2": "101814",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101913",
+      "node2": "101914",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100014",
+      "node2": "100114",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100014",
+      "node2": "100015",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100114",
+      "node2": "100214",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100114",
+      "node2": "100115",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100214",
+      "node2": "100314",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100214",
+      "node2": "100215",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100314",
+      "node2": "100414",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100314",
+      "node2": "100315",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100414",
+      "node2": "100514",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100414",
+      "node2": "100415",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100514",
+      "node2": "100614",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100514",
+      "node2": "100515",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100614",
+      "node2": "100714",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100614",
+      "node2": "100615",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100714",
+      "node2": "100814",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100714",
+      "node2": "100715",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100814",
+      "node2": "100914",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100814",
+      "node2": "100815",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100914",
+      "node2": "101014",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100914",
+      "node2": "100915",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101014",
+      "node2": "101114",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101014",
+      "node2": "101015",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101114",
+      "node2": "101214",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101114",
+      "node2": "101115",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101214",
+      "node2": "101314",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101214",
+      "node2": "101215",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101314",
+      "node2": "101414",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101314",
+      "node2": "101315",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101414",
+      "node2": "101514",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101414",
+      "node2": "101415",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101514",
+      "node2": "101614",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101514",
+      "node2": "101515",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101614",
+      "node2": "101714",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101614",
+      "node2": "101615",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101714",
+      "node2": "101814",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101714",
+      "node2": "101715",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101814",
+      "node2": "101914",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101814",
+      "node2": "101815",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101914",
+      "node2": "101915",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100015",
+      "node2": "100115",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100015",
+      "node2": "100016",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100115",
+      "node2": "100215",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100115",
+      "node2": "100116",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100215",
+      "node2": "100315",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100215",
+      "node2": "100216",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100315",
+      "node2": "100415",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100315",
+      "node2": "100316",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100415",
+      "node2": "100515",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100415",
+      "node2": "100416",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100515",
+      "node2": "100615",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100515",
+      "node2": "100516",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100615",
+      "node2": "100715",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100615",
+      "node2": "100616",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100715",
+      "node2": "100815",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100715",
+      "node2": "100716",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100815",
+      "node2": "100915",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100815",
+      "node2": "100816",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100915",
+      "node2": "101015",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100915",
+      "node2": "100916",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101015",
+      "node2": "101115",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101015",
+      "node2": "101016",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101115",
+      "node2": "101215",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101115",
+      "node2": "101116",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101215",
+      "node2": "101315",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101215",
+      "node2": "101216",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101315",
+      "node2": "101415",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101315",
+      "node2": "101316",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101415",
+      "node2": "101515",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101415",
+      "node2": "101416",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101515",
+      "node2": "101615",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101515",
+      "node2": "101516",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101615",
+      "node2": "101715",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101615",
+      "node2": "101616",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101715",
+      "node2": "101815",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101715",
+      "node2": "101716",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101815",
+      "node2": "101915",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101815",
+      "node2": "101816",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101915",
+      "node2": "101916",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100016",
+      "node2": "100116",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100016",
+      "node2": "100017",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100116",
+      "node2": "100216",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100116",
+      "node2": "100117",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100216",
+      "node2": "100316",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100216",
+      "node2": "100217",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100316",
+      "node2": "100416",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100316",
+      "node2": "100317",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100416",
+      "node2": "100516",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100416",
+      "node2": "100417",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100516",
+      "node2": "100616",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100516",
+      "node2": "100517",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100616",
+      "node2": "100716",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100616",
+      "node2": "100617",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100716",
+      "node2": "100816",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100716",
+      "node2": "100717",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100816",
+      "node2": "100916",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100816",
+      "node2": "100817",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100916",
+      "node2": "101016",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100916",
+      "node2": "100917",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101016",
+      "node2": "101116",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101016",
+      "node2": "101017",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101116",
+      "node2": "101216",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101116",
+      "node2": "101117",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101216",
+      "node2": "101316",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101216",
+      "node2": "101217",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101316",
+      "node2": "101416",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101316",
+      "node2": "101317",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101416",
+      "node2": "101516",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101416",
+      "node2": "101417",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101516",
+      "node2": "101616",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101516",
+      "node2": "101517",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101616",
+      "node2": "101716",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101616",
+      "node2": "101617",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101716",
+      "node2": "101816",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101716",
+      "node2": "101717",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101816",
+      "node2": "101916",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101816",
+      "node2": "101817",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101916",
+      "node2": "101917",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100017",
+      "node2": "100117",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100017",
+      "node2": "100018",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100117",
+      "node2": "100217",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100117",
+      "node2": "100118",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100217",
+      "node2": "100317",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100217",
+      "node2": "100218",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100317",
+      "node2": "100417",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100317",
+      "node2": "100318",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100417",
+      "node2": "100517",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100417",
+      "node2": "100418",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100517",
+      "node2": "100617",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100517",
+      "node2": "100518",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100617",
+      "node2": "100717",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100617",
+      "node2": "100618",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100717",
+      "node2": "100817",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100717",
+      "node2": "100718",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100817",
+      "node2": "100917",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100817",
+      "node2": "100818",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100917",
+      "node2": "101017",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100917",
+      "node2": "100918",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101017",
+      "node2": "101117",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101017",
+      "node2": "101018",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101117",
+      "node2": "101217",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101117",
+      "node2": "101118",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101217",
+      "node2": "101317",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101217",
+      "node2": "101218",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101317",
+      "node2": "101417",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101317",
+      "node2": "101318",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101417",
+      "node2": "101517",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101417",
+      "node2": "101418",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101517",
+      "node2": "101617",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101517",
+      "node2": "101518",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101617",
+      "node2": "101717",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101617",
+      "node2": "101618",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101717",
+      "node2": "101817",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101717",
+      "node2": "101718",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101817",
+      "node2": "101917",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101817",
+      "node2": "101818",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101917",
+      "node2": "101918",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100018",
+      "node2": "100118",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100018",
+      "node2": "100019",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100118",
+      "node2": "100218",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100118",
+      "node2": "100119",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100218",
+      "node2": "100318",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100218",
+      "node2": "100219",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100318",
+      "node2": "100418",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100318",
+      "node2": "100319",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100418",
+      "node2": "100518",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100418",
+      "node2": "100419",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100518",
+      "node2": "100618",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100518",
+      "node2": "100519",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100618",
+      "node2": "100718",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100618",
+      "node2": "100619",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100718",
+      "node2": "100818",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100718",
+      "node2": "100719",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100818",
+      "node2": "100918",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100818",
+      "node2": "100819",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100918",
+      "node2": "101018",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "100918",
+      "node2": "100919",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101018",
+      "node2": "101118",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101018",
+      "node2": "101019",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101118",
+      "node2": "101218",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101118",
+      "node2": "101119",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101218",
+      "node2": "101318",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101218",
+      "node2": "101219",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101318",
+      "node2": "101418",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101318",
+      "node2": "101319",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101418",
+      "node2": "101518",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101418",
+      "node2": "101419",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101518",
+      "node2": "101618",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101518",
+      "node2": "101519",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101618",
+      "node2": "101718",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101618",
+      "node2": "101619",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101718",
+      "node2": "101818",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101718",
+      "node2": "101719",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101818",
+      "node2": "101918",
+      "stiffness": 37.0
+    },
+    {
+      "node1": "101818",
+      "node2": "101819",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "101918",
+      "node2": "101919",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100019",
+      "node2": "100119",
+      "stiffness": 1.0
+    },
+    {
+      "node1": "100119",
+      "node2": "100219",
+      "stiffness": 3.0
+    },
+    {
+      "node1": "100219",
+      "node2": "100319",
+      "stiffness": 5.0
+    },
+    {
+      "node1": "100319",
+      "node2": "100419",
+      "stiffness": 7.0
+    },
+    {
+      "node1": "100419",
+      "node2": "100519",
+      "stiffness": 9.0
+    },
+    {
+      "node1": "100519",
+      "node2": "100619",
+      "stiffness": 11.0
+    },
+    {
+      "node1": "100619",
+      "node2": "100719",
+      "stiffness": 13.0
+    },
+    {
+      "node1": "100719",
+      "node2": "100819",
+      "stiffness": 15.0
+    },
+    {
+      "node1": "100819",
+      "node2": "100919",
+      "stiffness": 17.0
+    },
+    {
+      "node1": "100919",
+      "node2": "101019",
+      "stiffness": 19.0
+    },
+    {
+      "node1": "101019",
+      "node2": "101119",
+      "stiffness": 21.0
+    },
+    {
+      "node1": "101119",
+      "node2": "101219",
+      "stiffness": 23.0
+    },
+    {
+      "node1": "101219",
+      "node2": "101319",
+      "stiffness": 25.0
+    },
+    {
+      "node1": "101319",
+      "node2": "101419",
+      "stiffness": 27.0
+    },
+    {
+      "node1": "101419",
+      "node2": "101519",
+      "stiffness": 29.0
+    },
+    {
+      "node1": "101519",
+      "node2": "101619",
+      "stiffness": 31.0
+    },
+    {
+      "node1": "101619",
+      "node2": "101719",
+      "stiffness": 33.0
+    },
+    {
+      "node1": "101719",
+      "node2": "101819",
+      "stiffness": 35.0
+    },
+    {
+      "node1": "101819",
+      "node2": "101919",
+      "stiffness": 37.0
+    }
+  ]
+}
